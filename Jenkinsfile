@@ -5,8 +5,8 @@ node{
     }
 
     stage('check tools'){
-        sh "pwd"
-        sh "./gradlew --version"
+        sh "echo %cd%"
+        sh "gradlew --version"
     }
 
     stag('clean'){
