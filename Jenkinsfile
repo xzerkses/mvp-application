@@ -9,7 +9,7 @@ node{
         bat "gradlew --version"
     }
 
-    stag('clean'){
+    stage('clean'){
 
         bat "gradlew clean"
     }
