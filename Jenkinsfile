@@ -11,19 +11,19 @@ node{
 
     stag('clean'){
 
-        sh "./gradlew clean"
+        bat "gradlew clean"
     }
 
 
     stage('test'){
-        sh "./gradlew :web-sandbox:test"
+        bat "gradlew :web-sandbox:test"
     }
 
     stage('packaging'){
-        sh "./gradlew :web-sandbox:war"
+        bat "gradlew :web-sandbox:war"
     }
 
     stage('deploying'){
-        sh "./gardlew :web-sandbox:deployTest"
+        bat "gardlew :web-sandbox:deployTest"
     }
 }
