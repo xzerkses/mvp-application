@@ -9,6 +9,11 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app-admin" />
+            <option value="$PROJECT_DIR$/app-microservice" />
+            <option value="$PROJECT_DIR$/app-web" />
+            <option value="$PROJECT_DIR$/mod-domain" />
+            <option value="$PROJECT_DIR$/mod-mobile" />
             <option value="$PROJECT_DIR$/mod-sandbox" />
             <option value="$PROJECT_DIR$/web-sandbox" />
           </set>

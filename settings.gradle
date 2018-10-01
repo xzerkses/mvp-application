@@ -1,2 +1,7 @@
 include "web-sandbox"
+include "app-admin"
+include "app-web"
+include "app-microservice"
 include "mod-sandbox"
+include "mod-domain"
+include "mod-mobile"

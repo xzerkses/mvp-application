@@ -24,6 +24,6 @@ node{
     }
 
     stage('deploying'){
-        bat "gardlew :web-sandbox:deployTest"
+        bat "gardlew :web-sandbox:deployBeta"
     }
 }
