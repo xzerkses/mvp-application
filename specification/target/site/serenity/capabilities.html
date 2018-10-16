@@ -34,7 +34,7 @@
         var plot1 = $.jqplot('coverage_pie_chart', [
             [
                 ['Passing', 0],
-                ['Pending', 0],
+                ['Pending', 1],
                 ['Ignored', 0],
                 ['Failing', 0],
                 ['Errors',  0]
@@ -66,7 +66,7 @@
             },
             series: [
                 {label: '0% requirements tested successfully'},
-                {label: '0% requirements untested'},
+                {label: '100% requirements untested'},
                 {label: '0%} requirements failing'},
                 {label: '0%} requirements with errors'}
             ]
@@ -148,8 +148,14 @@
         <li class="active">
             <a href="#"><i class="fa fa-book"></i> Requirements</a>
         </li>
+        <li >
+            <a href="7ea0a5e2d679b9deeda9910ae4a9bcd3a281e0d908303a9e16e486103e98880c.html"><i class="fa fa-comments-o"></i> Capabilities</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 02-10-2018 20:12</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 16-10-2018 21:30</span>
     <br style="clear:left"/>
 </div>
 
@@ -160,7 +166,1093 @@
         <div class="middlb">
             <div class="table">
 
+                <div id="requirements-summary">
+                    <div id="coverage_pie_chart"
+                         style="margin-top:10px; margin-left:10px; width:250px; height:250px;"></div>
+                    <div id="coverage_summary">
+                        <div>
+                            <h4>Requirements Overview</h4>
+                            <table class="summary-table">
+                                <head>
+                                    <tr>
+                                        <th>Requirement Type</th>
+                                        <th>Total</th>
+                                        <th>Pass&nbsp;<i class="icon-check"/></th>
+                                        <th>Fail&nbsp;<i class="icon-thumbs-down"/></th>
+                                        <th>Pending&nbsp;<i class="icon-calendar"/></th>
+                                        <th>Ignored&nbsp;<i class="icon-ban-circle"/></th>
+                                        <th>Untested&nbsp;<i class="icon-question"/></th>
+                                    </tr>
+                                </head>
+                                <body>
+                                    <tr>
+                                        <td class="summary-leading-column">Capabilities</td>
+                                        <td>3</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>3</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="summary-leading-column">Features</td>
+                                        <td>6</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>6</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                    </tr>
+                                <tr>
+                                    <td class="summary-leading-column">Acceptance Criteria (tests)</td>
+                                    <td>18</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>18</td>
+                                    <td>0</td>
+                                    <td></td>
+                                </tr>
+                                </body>
+                            </table>
+                        </div>
 
+
+
+
+
+<div>
+    <h4>Test Result Summary</h4>
+    <table class="summary-table">
+        <head>
+            <tr>
+                <th>Test Type</th>
+                <th>Total</th>
+                <th>Pass&nbsp;<i class="icon-check"/> </th>
+                <th>Fail&nbsp;<i class="icon-thumbs-down"/></th>
+                <th>Pending&nbsp;<i class="icon-calendar"/></th>
+                <th>Ignored&nbsp;<i class="icon-ban-circle"/></th>
+            </tr>
+        </head>
+        <body>
+        <tr>
+            <td class="summary-leading-column">Automated</td>
+            <td>18</td>
+            <td>0 (0%)</td>
+            <td>0 (0%)</td>
+            <td>18 (100%)</td>
+            <td>0 (0%)</td>
+        </tr>
+        <tr>
+            <td class="summary-leading-column">Manual</td>
+            <td>0</td>
+            <td>0 (0%)</td>
+            <td>0 (0%)</td>
+            <td>0 (0%)</td>
+            <td>0 (0%)</td>
+        </tr>
+        <tr>
+            <td class="summary-leading-column">Total</td>
+            <td>18</td>
+            <td>0 (0%)</td>
+            <td>0 (0%)</td>
+            <td>18 (100%)</td>
+            <td>0 (0%)</td>
+        </tr>
+        <tr>
+            <td class="summary-leading-column">Total Duration</td>
+                <td colspan="5">1 seconds</td>
+        </tr>
+        </body>
+    </table>
+</div>
+                    </div>
+                </div>
+                <div class="clr"></div>
+
+                <div id="tabs">
+                        <ul>
+                                <li><a href="#tabs-1">
+                                Capabilities (3)
+                                </a></li>
+                        </ul>
+                        <div id="tabs-1" class="capabilities-table">
+                            <div id="req_list_tests" class="table">
+                                <div class="test-results">
+                                    <table id="req-results-table">
+                                        <thead>
+                                        <tr>
+                                            <th width="30" class="test-results-heading">&nbsp;</th>
+                                            <th width="65" class="test-results-heading">ID</th>
+                                            <th width="525" class="test-results-heading">Capability</th>
+                                                <th width="65" class="test-results-heading">Features</th>
+                                            <th class="test-results-heading" width="75px">Auto.<br/>Tests</th>
+                                            <th class="test-results-heading" width="25px"><i
+                                                    class="icon-check icon-large"
+                                                    title="Tests passed (automated)"></i></th>
+                                            <th class="test-results-heading" width="25px"><i
+                                                    class="icon-ban-circle icon-large"
+                                                    title="Tests skipped or pending (automated)">
+                                            </th>
+                                            <th class="test-results-heading" width="25px"><i
+                                                    class="icon-thumbs-down icon-large"
+                                                    title="Tests failed (automated)"></th>
+                                            <th class="test-results-heading" width="25px"><i
+                                                    class="icon-exclamation-sign icon-large"
+                                                    title="Tests failed with an error (automated)">
+                                            </th>
+                                                <th class="test-results-heading" width="75px">Manual<br/>Tests</th>
+                                                <th class="test-results-heading" width="25px"><i
+                                                        class="icon-check icon-large"
+                                                        title="Tests passed (manual)"></i></th>
+                                                <th class="test-results-heading" width="25px"><i
+                                                        class="icon-ban-circle icon-large"
+                                                        title="Tests skipped or pending (manual)">
+                                                </th>
+                                                <th class="test-results-heading" width="25px"><i
+                                                        class="icon-thumbs-down icon-large"
+                                                        title="Tests failed (manual)"></th>
+                                                <th class="test-results-heading" width="25px"><i
+                                                        class="icon-exclamation-sign icon-large"
+                                                        title="Tests failed with an error (manual)">
+                                                </th>
+
+
+                                            <th width="125px" class="test-results-heading">Coverage</th>
+                                        </tr>
+                                        <tbody>
+
+                                            <tr class="test-PENDING requirementRow">
+                                                <td class="requirementRowCell">
+                                                    <img src="images/traffic-yellow.gif" class="summary-icon"
+                                                         title="PENDING"/>
+                                                    <span style="display:none">0</span>
+                                                </td>
+                                                <td class="cardNumber requirementRowCell"></td>
+
+                                                <td class="PENDING-text requirementRowCell">
+                                                        <a href="javaScript:void(0)" class="read-more-link"><img
+                                                                src="images/plus.png"
+                                                                height="20"/></a>
+                                                    <span class="requirementName"><a
+                                                            href="fe523c19ffd5a8f0d76f71c9f8b48d8c3cbc2a10e25689e0a82012ef51cf7865.html">Admin</a></span>
+                                                        <div class="requirementNarrative read-more-text">Admin</div>
+                                                </td>
+
+                                                    <td class="bluetext requirementRowCell">3</td>
+
+
+                                                <td class="greentext highlighted-value requirementRowCell">10</td>
+                                                <td class="greentext requirementRowCell">0</td>
+                                                <td class="bluetext requirementRowCell">10</td>
+                                                <td class="redtext requirementRowCell">0</td>
+                                                <td class="lightorangetext requirementRowCell">0</td>
+                                                    <td class="greentext highlighted-value requirementRowCell">0</td>
+                                                    <td class="greentext requirementRowCell">0</td>
+                                                    <td class="bluetext requirementRowCell">0</td>
+                                                    <td class="redtext requirementRowCell">0</td>
+                                                    <td class="lightorangetext requirementRowCell">0</td>
+
+                                                <td width="125px" class="lightgreentext requirementRowCell">
+
+                                                    <!--
+                                                    Accessing the ESAA Registration screens
+
+                                                    Tests implemented: 10
+                                                      - Passing tests: 4
+                                                      - Failing tests: 3
+
+                                                    Requirements specified:   6
+                                                    Requiments without tests: 2
+
+                                                    Estimated unimplemented tests: 7
+                                                    -->
+
+                                                    <table>
+                                                        <tr>
+                                                            <td width="40px">
+                                                                <div class="small">0%</div>
+                                                            </td>
+                                                            <td width="125px">
+                                                                <div class="percentagebar"
+                                                                     title="Admin
+Tests implemented: 10
+  - Passing tests: 0 (0% of specified requirements)
+  - Failing tests: 0 (0% of specified requirements)
+  - Tests with errors: 0 (0% of specified requirements)
+
+Tests not implemented or not executed: 10
+  - Pending tests: 10 (100% of specified requirements)
+  - Ignored or skipped tests: 0 (0% of specified requirements)
+
+Requirements specified:     4
+Requirements with no tests: 0
+
+
+Estimated unimplemented tests: 0
+Estimated unimplemented or pending requirements: 100%
+Estimated ignored or skipped requirements: 0%"
+                                                                     style="width: 125px;">
+                                                                    <div class="ignoredbar"
+                                                                         style="width: 0px;"
+                                                                         title="Admin
+Tests implemented: 10
+  - Passing tests: 0 (0% of specified requirements)
+  - Failing tests: 0 (0% of specified requirements)
+  - Tests with errors: 0 (0% of specified requirements)
+
+Tests not implemented or not executed: 10
+  - Pending tests: 10 (100% of specified requirements)
+  - Ignored or skipped tests: 0 (0% of specified requirements)
+
+Requirements specified:     4
+Requirements with no tests: 0
+
+
+Estimated unimplemented tests: 0
+Estimated unimplemented or pending requirements: 100%
+Estimated ignored or skipped requirements: 0%">
+                                                                        <div class="errorbar"
+                                                                             style="width: 0px;"
+                                                                             title="Admin
+Tests implemented: 10
+  - Passing tests: 0 (0% of specified requirements)
+  - Failing tests: 0 (0% of specified requirements)
+  - Tests with errors: 0 (0% of specified requirements)
+
+Tests not implemented or not executed: 10
+  - Pending tests: 10 (100% of specified requirements)
+  - Ignored or skipped tests: 0 (0% of specified requirements)
+
+Requirements specified:     4
+Requirements with no tests: 0
+
+
+Estimated unimplemented tests: 0
+Estimated unimplemented or pending requirements: 100%
+Estimated ignored or skipped requirements: 0%">
+                                                                            <div class="failingbar"
+                                                                                 style="width: 0px;"
+                                                                                 title="Admin
+Tests implemented: 10
+  - Passing tests: 0 (0% of specified requirements)
+  - Failing tests: 0 (0% of specified requirements)
+  - Tests with errors: 0 (0% of specified requirements)
+
+Tests not implemented or not executed: 10
+  - Pending tests: 10 (100% of specified requirements)
+  - Ignored or skipped tests: 0 (0% of specified requirements)
+
+Requirements specified:     4
+Requirements with no tests: 0
+
+
+Estimated unimplemented tests: 0
+Estimated unimplemented or pending requirements: 100%
+Estimated ignored or skipped requirements: 0%">
+                                                                                <div class="passingbar"
+                                                                                     style="width: 0px;"
+                                                                                     title="Admin
+Tests implemented: 10
+  - Passing tests: 0 (0% of specified requirements)
+  - Failing tests: 0 (0% of specified requirements)
+  - Tests with errors: 0 (0% of specified requirements)
+
+Tests not implemented or not executed: 10
+  - Pending tests: 10 (100% of specified requirements)
+  - Ignored or skipped tests: 0 (0% of specified requirements)
+
+Requirements specified:     4
+Requirements with no tests: 0
+
+
+Estimated unimplemented tests: 0
+Estimated unimplemented or pending requirements: 100%
+Estimated ignored or skipped requirements: 0%">
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+
+                                            </tr>
+                                            <tr class="test-PENDING requirementRow">
+                                                <td class="requirementRowCell">
+                                                    <img src="images/traffic-yellow.gif" class="summary-icon"
+                                                         title="PENDING"/>
+                                                    <span style="display:none">0</span>
+                                                </td>
+                                                <td class="cardNumber requirementRowCell"></td>
+
+                                                <td class="PENDING-text requirementRowCell">
+                                                        <a href="javaScript:void(0)" class="read-more-link"><img
+                                                                src="images/plus.png"
+                                                                height="20"/></a>
+                                                    <span class="requirementName"><a
+                                                            href="0de8cd5b949d70b58bf52bd281daf491be6193ca85bd00e49b66cdd32e608d55.html">Microservice</a></span>
+                                                        <div class="requirementNarrative read-more-text">Microservice</div>
+                                                </td>
+
+                                                    <td class="bluetext requirementRowCell">1</td>
+
+
+                                                <td class="greentext highlighted-value requirementRowCell">2</td>
+                                                <td class="greentext requirementRowCell">0</td>
+                                                <td class="bluetext requirementRowCell">2</td>
+                                                <td class="redtext requirementRowCell">0</td>
+                                                <td class="lightorangetext requirementRowCell">0</td>
+                                                    <td class="greentext highlighted-value requirementRowCell">0</td>
+                                                    <td class="greentext requirementRowCell">0</td>
+                                                    <td class="bluetext requirementRowCell">0</td>
+                                                    <td class="redtext requirementRowCell">0</td>
+                                                    <td class="lightorangetext requirementRowCell">0</td>
+
+                                                <td width="125px" class="lightgreentext requirementRowCell">
+
+                                                    <!--
+                                                    Accessing the ESAA Registration screens
+
+                                                    Tests implemented: 10
+                                                      - Passing tests: 4
+                                                      - Failing tests: 3
+
+                                                    Requirements specified:   6
+                                                    Requiments without tests: 2
+
+                                                    Estimated unimplemented tests: 7
+                                                    -->
+
+                                                    <table>
+                                                        <tr>
+                                                            <td width="40px">
+                                                                <div class="small">0%</div>
+                                                            </td>
+                                                            <td width="125px">
+                                                                <div class="percentagebar"
+                                                                     title="Microservice
+Tests implemented: 2
+  - Passing tests: 0 (0% of specified requirements)
+  - Failing tests: 0 (0% of specified requirements)
+  - Tests with errors: 0 (0% of specified requirements)
+
+Tests not implemented or not executed: 2
+  - Pending tests: 2 (100% of specified requirements)
+  - Ignored or skipped tests: 0 (0% of specified requirements)
+
+Requirements specified:     2
+Requirements with no tests: 0
+
+
+Estimated unimplemented tests: 0
+Estimated unimplemented or pending requirements: 100%
+Estimated ignored or skipped requirements: 0%"
+                                                                     style="width: 125px;">
+                                                                    <div class="ignoredbar"
+                                                                         style="width: 0px;"
+                                                                         title="Microservice
+Tests implemented: 2
+  - Passing tests: 0 (0% of specified requirements)
+  - Failing tests: 0 (0% of specified requirements)
+  - Tests with errors: 0 (0% of specified requirements)
+
+Tests not implemented or not executed: 2
+  - Pending tests: 2 (100% of specified requirements)
+  - Ignored or skipped tests: 0 (0% of specified requirements)
+
+Requirements specified:     2
+Requirements with no tests: 0
+
+
+Estimated unimplemented tests: 0
+Estimated unimplemented or pending requirements: 100%
+Estimated ignored or skipped requirements: 0%">
+                                                                        <div class="errorbar"
+                                                                             style="width: 0px;"
+                                                                             title="Microservice
+Tests implemented: 2
+  - Passing tests: 0 (0% of specified requirements)
+  - Failing tests: 0 (0% of specified requirements)
+  - Tests with errors: 0 (0% of specified requirements)
+
+Tests not implemented or not executed: 2
+  - Pending tests: 2 (100% of specified requirements)
+  - Ignored or skipped tests: 0 (0% of specified requirements)
+
+Requirements specified:     2
+Requirements with no tests: 0
+
+
+Estimated unimplemented tests: 0
+Estimated unimplemented or pending requirements: 100%
+Estimated ignored or skipped requirements: 0%">
+                                                                            <div class="failingbar"
+                                                                                 style="width: 0px;"
+                                                                                 title="Microservice
+Tests implemented: 2
+  - Passing tests: 0 (0% of specified requirements)
+  - Failing tests: 0 (0% of specified requirements)
+  - Tests with errors: 0 (0% of specified requirements)
+
+Tests not implemented or not executed: 2
+  - Pending tests: 2 (100% of specified requirements)
+  - Ignored or skipped tests: 0 (0% of specified requirements)
+
+Requirements specified:     2
+Requirements with no tests: 0
+
+
+Estimated unimplemented tests: 0
+Estimated unimplemented or pending requirements: 100%
+Estimated ignored or skipped requirements: 0%">
+                                                                                <div class="passingbar"
+                                                                                     style="width: 0px;"
+                                                                                     title="Microservice
+Tests implemented: 2
+  - Passing tests: 0 (0% of specified requirements)
+  - Failing tests: 0 (0% of specified requirements)
+  - Tests with errors: 0 (0% of specified requirements)
+
+Tests not implemented or not executed: 2
+  - Pending tests: 2 (100% of specified requirements)
+  - Ignored or skipped tests: 0 (0% of specified requirements)
+
+Requirements specified:     2
+Requirements with no tests: 0
+
+
+Estimated unimplemented tests: 0
+Estimated unimplemented or pending requirements: 100%
+Estimated ignored or skipped requirements: 0%">
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+
+                                            </tr>
+                                            <tr class="test-PENDING requirementRow">
+                                                <td class="requirementRowCell">
+                                                    <img src="images/traffic-yellow.gif" class="summary-icon"
+                                                         title="PENDING"/>
+                                                    <span style="display:none">0</span>
+                                                </td>
+                                                <td class="cardNumber requirementRowCell"></td>
+
+                                                <td class="PENDING-text requirementRowCell">
+                                                        <a href="javaScript:void(0)" class="read-more-link"><img
+                                                                src="images/plus.png"
+                                                                height="20"/></a>
+                                                    <span class="requirementName"><a
+                                                            href="abd0cde700ae46c1d750fb483725e8f1092577aa21a85ab2260a8fe2e53d5565.html">Web</a></span>
+                                                        <div class="requirementNarrative read-more-text">Web</div>
+                                                </td>
+
+                                                    <td class="bluetext requirementRowCell">2</td>
+
+
+                                                <td class="greentext highlighted-value requirementRowCell">6</td>
+                                                <td class="greentext requirementRowCell">0</td>
+                                                <td class="bluetext requirementRowCell">6</td>
+                                                <td class="redtext requirementRowCell">0</td>
+                                                <td class="lightorangetext requirementRowCell">0</td>
+                                                    <td class="greentext highlighted-value requirementRowCell">0</td>
+                                                    <td class="greentext requirementRowCell">0</td>
+                                                    <td class="bluetext requirementRowCell">0</td>
+                                                    <td class="redtext requirementRowCell">0</td>
+                                                    <td class="lightorangetext requirementRowCell">0</td>
+
+                                                <td width="125px" class="lightgreentext requirementRowCell">
+
+                                                    <!--
+                                                    Accessing the ESAA Registration screens
+
+                                                    Tests implemented: 10
+                                                      - Passing tests: 4
+                                                      - Failing tests: 3
+
+                                                    Requirements specified:   6
+                                                    Requiments without tests: 2
+
+                                                    Estimated unimplemented tests: 7
+                                                    -->
+
+                                                    <table>
+                                                        <tr>
+                                                            <td width="40px">
+                                                                <div class="small">0%</div>
+                                                            </td>
+                                                            <td width="125px">
+                                                                <div class="percentagebar"
+                                                                     title="Web
+Tests implemented: 6
+  - Passing tests: 0 (0% of specified requirements)
+  - Failing tests: 0 (0% of specified requirements)
+  - Tests with errors: 0 (0% of specified requirements)
+
+Tests not implemented or not executed: 6
+  - Pending tests: 6 (100% of specified requirements)
+  - Ignored or skipped tests: 0 (0% of specified requirements)
+
+Requirements specified:     3
+Requirements with no tests: 0
+
+
+Estimated unimplemented tests: 0
+Estimated unimplemented or pending requirements: 100%
+Estimated ignored or skipped requirements: 0%"
+                                                                     style="width: 125px;">
+                                                                    <div class="ignoredbar"
+                                                                         style="width: 0px;"
+                                                                         title="Web
+Tests implemented: 6
+  - Passing tests: 0 (0% of specified requirements)
+  - Failing tests: 0 (0% of specified requirements)
+  - Tests with errors: 0 (0% of specified requirements)
+
+Tests not implemented or not executed: 6
+  - Pending tests: 6 (100% of specified requirements)
+  - Ignored or skipped tests: 0 (0% of specified requirements)
+
+Requirements specified:     3
+Requirements with no tests: 0
+
+
+Estimated unimplemented tests: 0
+Estimated unimplemented or pending requirements: 100%
+Estimated ignored or skipped requirements: 0%">
+                                                                        <div class="errorbar"
+                                                                             style="width: 0px;"
+                                                                             title="Web
+Tests implemented: 6
+  - Passing tests: 0 (0% of specified requirements)
+  - Failing tests: 0 (0% of specified requirements)
+  - Tests with errors: 0 (0% of specified requirements)
+
+Tests not implemented or not executed: 6
+  - Pending tests: 6 (100% of specified requirements)
+  - Ignored or skipped tests: 0 (0% of specified requirements)
+
+Requirements specified:     3
+Requirements with no tests: 0
+
+
+Estimated unimplemented tests: 0
+Estimated unimplemented or pending requirements: 100%
+Estimated ignored or skipped requirements: 0%">
+                                                                            <div class="failingbar"
+                                                                                 style="width: 0px;"
+                                                                                 title="Web
+Tests implemented: 6
+  - Passing tests: 0 (0% of specified requirements)
+  - Failing tests: 0 (0% of specified requirements)
+  - Tests with errors: 0 (0% of specified requirements)
+
+Tests not implemented or not executed: 6
+  - Pending tests: 6 (100% of specified requirements)
+  - Ignored or skipped tests: 0 (0% of specified requirements)
+
+Requirements specified:     3
+Requirements with no tests: 0
+
+
+Estimated unimplemented tests: 0
+Estimated unimplemented or pending requirements: 100%
+Estimated ignored or skipped requirements: 0%">
+                                                                                <div class="passingbar"
+                                                                                     style="width: 0px;"
+                                                                                     title="Web
+Tests implemented: 6
+  - Passing tests: 0 (0% of specified requirements)
+  - Failing tests: 0 (0% of specified requirements)
+  - Tests with errors: 0 (0% of specified requirements)
+
+Tests not implemented or not executed: 6
+  - Pending tests: 6 (100% of specified requirements)
+  - Ignored or skipped tests: 0 (0% of specified requirements)
+
+Requirements specified:     3
+Requirements with no tests: 0
+
+
+Estimated unimplemented tests: 0
+Estimated unimplemented or pending requirements: 100%
+Estimated ignored or skipped requirements: 0%">
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="test-tabs">
+                            <ul>
+                                <li><a href="#test-tabs-1">Acceptance Tests (18)</a></li>
+                            </ul>
+                            <div id="test_list_tests" class="table">
+                                <div class="test-results">
+                                    <table id="test-results-table">
+                                        <thead>
+                                        <tr>
+                                            <th width="50" class="test-results-heading">&nbsp;</th>
+                                            <th width="%" class="test-results-heading">Acceptance Tests</th>
+                                            <th width="70" class="test-results-heading">Steps</th>
+                                            <th width="65" class="test-results-heading">Stable</th>
+                                            <th width="100" class="test-results-heading">Duration<br>(seconds)</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+
+
+                                            <tr class="test-PENDING">
+                                                <td>
+                                                    <img src="images/pending.png"
+                                                         title="PENDING"
+                                                         class="summary-icon"/>
+                                                    <span style="display:none">PENDING</span>
+                                                    
+                                                </td>
+                                                <td class="PENDING-text"><a
+                                                        href="8331f309d0d50be4415dd9efb5aefc3fe691a7c0e41bf8b094ad972066b72721.html"
+                                                        title="">Admin site login page </a>
+                                                </td>
+
+                                                <td class="lightgreentext">3</td>
+                                                <td class="bluetext">
+                                                    <img src="images/traffic-in-progress.gif"
+                                                         title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                                         class="summary-icon"/>
+                                                    <span style="display:none">0</span>
+                                                </td>
+                                                <td class="lightgreentext">0</td>
+                                            </tr>
+
+
+                                            <tr class="test-PENDING">
+                                                <td>
+                                                    <img src="images/pending.png"
+                                                         title="PENDING"
+                                                         class="summary-icon"/>
+                                                    <span style="display:none">PENDING</span>
+                                                    
+                                                </td>
+                                                <td class="PENDING-text"><a
+                                                        href="3bcdab80d39bc82cd877b9ae50e5960808cb7146d8da46d390f642e6a4ac1703.html"
+                                                        title="">Apply to a job </a>
+                                                </td>
+
+                                                <td class="lightgreentext">4</td>
+                                                <td class="bluetext">
+                                                    <img src="images/traffic-in-progress.gif"
+                                                         title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                                         class="summary-icon"/>
+                                                    <span style="display:none">0</span>
+                                                </td>
+                                                <td class="lightgreentext">0</td>
+                                            </tr>
+
+
+                                            <tr class="test-PENDING">
+                                                <td>
+                                                    <img src="images/pending.png"
+                                                         title="PENDING"
+                                                         class="summary-icon"/>
+                                                    <span style="display:none">PENDING</span>
+                                                    
+                                                </td>
+                                                <td class="PENDING-text"><a
+                                                        href="68862f9dbb8ebb4843f1b2b6b8e810828cfd6ba9140ac4628b9ab1e315264dae.html"
+                                                        title="">Disable an operator </a>
+                                                </td>
+
+                                                <td class="lightgreentext">6</td>
+                                                <td class="bluetext">
+                                                    <img src="images/traffic-in-progress.gif"
+                                                         title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                                         class="summary-icon"/>
+                                                    <span style="display:none">0</span>
+                                                </td>
+                                                <td class="lightgreentext">0.01</td>
+                                            </tr>
+
+
+                                            <tr class="test-PENDING">
+                                                <td>
+                                                    <img src="images/pending.png"
+                                                         title="PENDING"
+                                                         class="summary-icon"/>
+                                                    <span style="display:none">PENDING</span>
+                                                    
+                                                </td>
+                                                <td class="PENDING-text"><a
+                                                        href="97ba2dbe21ec3a3de15972f1d9942d269132ae7418469b64421ee035ab2424dd.html"
+                                                        title="">Expose jobs to searchers </a>
+                                                </td>
+
+                                                <td class="lightgreentext">5</td>
+                                                <td class="bluetext">
+                                                    <img src="images/traffic-in-progress.gif"
+                                                         title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                                         class="summary-icon"/>
+                                                    <span style="display:none">0</span>
+                                                </td>
+                                                <td class="lightgreentext">0.03</td>
+                                            </tr>
+
+
+                                            <tr class="test-PENDING">
+                                                <td>
+                                                    <img src="images/pending.png"
+                                                         title="PENDING"
+                                                         class="summary-icon"/>
+                                                    <span style="display:none">PENDING</span>
+                                                    
+                                                </td>
+                                                <td class="PENDING-text"><a
+                                                        href="46502bf0ba6a37d59b9e7e2220b1f372c35590d9ea9d28d2e3df0ce1af5494f2.html"
+                                                        title="">Filter jobs </a>
+                                                </td>
+
+                                                <td class="lightgreentext">3</td>
+                                                <td class="bluetext">
+                                                    <img src="images/traffic-in-progress.gif"
+                                                         title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                                         class="summary-icon"/>
+                                                    <span style="display:none">0</span>
+                                                </td>
+                                                <td class="lightgreentext">0</td>
+                                            </tr>
+
+
+                                            <tr class="test-PENDING">
+                                                <td>
+                                                    <img src="images/pending.png"
+                                                         title="PENDING"
+                                                         class="summary-icon"/>
+                                                    <span style="display:none">PENDING</span>
+                                                    
+                                                </td>
+                                                <td class="PENDING-text"><a
+                                                        href="9fa6797cee63d70d4dd3e9c6cb4e8ae67d50f40f516ee8d892aecc70ea3a028d.html"
+                                                        title="">Import jobs from sources </a>
+                                                </td>
+
+                                                <td class="lightgreentext">3</td>
+                                                <td class="bluetext">
+                                                    <img src="images/traffic-in-progress.gif"
+                                                         title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                                         class="summary-icon"/>
+                                                    <span style="display:none">0</span>
+                                                </td>
+                                                <td class="lightgreentext">0</td>
+                                            </tr>
+
+
+                                            <tr class="test-PENDING">
+                                                <td>
+                                                    <img src="images/pending.png"
+                                                         title="PENDING"
+                                                         class="summary-icon"/>
+                                                    <span style="display:none">PENDING</span>
+                                                    
+                                                </td>
+                                                <td class="PENDING-text"><a
+                                                        href="476abb63d9c258356f35de280e2b01fd4f8a1531505d8fa1886f5ef2dd28c74e.html"
+                                                        title="">Landing on admin site </a>
+                                                </td>
+
+                                                <td class="lightgreentext">3</td>
+                                                <td class="bluetext">
+                                                    <img src="images/traffic-in-progress.gif"
+                                                         title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                                         class="summary-icon"/>
+                                                    <span style="display:none">0</span>
+                                                </td>
+                                                <td class="lightgreentext">0.01</td>
+                                            </tr>
+
+
+                                            <tr class="test-PENDING">
+                                                <td>
+                                                    <img src="images/pending.png"
+                                                         title="PENDING"
+                                                         class="summary-icon"/>
+                                                    <span style="display:none">PENDING</span>
+                                                    
+                                                </td>
+                                                <td class="PENDING-text"><a
+                                                        href="d3b9f24fb63fde3daee6da6f2a179c338c9a2544401d10d58914c9db3fa2fece.html"
+                                                        title="">List of jobs </a>
+                                                </td>
+
+                                                <td class="lightgreentext">3</td>
+                                                <td class="bluetext">
+                                                    <img src="images/traffic-in-progress.gif"
+                                                         title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                                         class="summary-icon"/>
+                                                    <span style="display:none">0</span>
+                                                </td>
+                                                <td class="lightgreentext">0.01</td>
+                                            </tr>
+
+
+                                            <tr class="test-PENDING">
+                                                <td>
+                                                    <img src="images/pending.png"
+                                                         title="PENDING"
+                                                         class="summary-icon"/>
+                                                    <span style="display:none">PENDING</span>
+                                                    
+                                                </td>
+                                                <td class="PENDING-text"><a
+                                                        href="9133923fa70a62d853bcc48346a2e2c27914c285fe6afc92a6a96d9be350a4c2.html"
+                                                        title="">Login in application as admin </a>
+                                                </td>
+
+                                                <td class="lightgreentext">4</td>
+                                                <td class="bluetext">
+                                                    <img src="images/traffic-in-progress.gif"
+                                                         title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                                         class="summary-icon"/>
+                                                    <span style="display:none">0</span>
+                                                </td>
+                                                <td class="lightgreentext">0.01</td>
+                                            </tr>
+
+
+                                            <tr class="test-PENDING">
+                                                <td>
+                                                    <img src="images/pending.png"
+                                                         title="PENDING"
+                                                         class="summary-icon"/>
+                                                    <span style="display:none">PENDING</span>
+                                                    
+                                                </td>
+                                                <td class="PENDING-text"><a
+                                                        href="5e7065785c4f29a9093e5893e77a3c38e1980c9f30f7431eabdab378a4c4412e.html"
+                                                        title="">Login in application as operator </a>
+                                                </td>
+
+                                                <td class="lightgreentext">4</td>
+                                                <td class="bluetext">
+                                                    <img src="images/traffic-in-progress.gif"
+                                                         title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                                         class="summary-icon"/>
+                                                    <span style="display:none">0</span>
+                                                </td>
+                                                <td class="lightgreentext">0.41</td>
+                                            </tr>
+
+
+                                            <tr class="test-PENDING">
+                                                <td>
+                                                    <img src="images/pending.png"
+                                                         title="PENDING"
+                                                         class="summary-icon"/>
+                                                    <span style="display:none">PENDING</span>
+                                                    
+                                                </td>
+                                                <td class="PENDING-text"><a
+                                                        href="b4fa3c8aa5ad38402e29c61f3626b4a2fc95551bd114b463c047579738d37167.html"
+                                                        title="">Logout from application </a>
+                                                </td>
+
+                                                <td class="lightgreentext">5</td>
+                                                <td class="bluetext">
+                                                    <img src="images/traffic-in-progress.gif"
+                                                         title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                                         class="summary-icon"/>
+                                                    <span style="display:none">0</span>
+                                                </td>
+                                                <td class="lightgreentext">0.01</td>
+                                            </tr>
+
+
+                                            <tr class="test-PENDING">
+                                                <td>
+                                                    <img src="images/pending.png"
+                                                         title="PENDING"
+                                                         class="summary-icon"/>
+                                                    <span style="display:none">PENDING</span>
+                                                    
+                                                </td>
+                                                <td class="PENDING-text"><a
+                                                        href="b1e814cb4dd570f396bb6972b621ecc0f4f102ea3ec63ce02ca41bec30d5a2e3.html"
+                                                        title="">Manage application jobs specs </a>
+                                                </td>
+
+                                                <td class="lightgreentext">8</td>
+                                                <td class="bluetext">
+                                                    <img src="images/traffic-in-progress.gif"
+                                                         title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                                         class="summary-icon"/>
+                                                    <span style="display:none">0</span>
+                                                </td>
+                                                <td class="lightgreentext">0.01</td>
+                                            </tr>
+
+
+                                            <tr class="test-PENDING">
+                                                <td>
+                                                    <img src="images/pending.png"
+                                                         title="PENDING"
+                                                         class="summary-icon"/>
+                                                    <span style="display:none">PENDING</span>
+                                                    
+                                                </td>
+                                                <td class="PENDING-text"><a
+                                                        href="0c028a20a5827809d34ce9f6e973e48b04646b61bf469c553f3fc586e5a76f3f.html"
+                                                        title="">Manage application settings </a>
+                                                </td>
+
+                                                <td class="lightgreentext">6</td>
+                                                <td class="bluetext">
+                                                    <img src="images/traffic-in-progress.gif"
+                                                         title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                                         class="summary-icon"/>
+                                                    <span style="display:none">0</span>
+                                                </td>
+                                                <td class="lightgreentext">0.01</td>
+                                            </tr>
+
+
+                                            <tr class="test-PENDING">
+                                                <td>
+                                                    <img src="images/pending.png"
+                                                         title="PENDING"
+                                                         class="summary-icon"/>
+                                                    <span style="display:none">PENDING</span>
+                                                    
+                                                </td>
+                                                <td class="PENDING-text"><a
+                                                        href="6d7fd0d096d04389f3b1b5c08f084ca902403c0b4ab911796baeae3e6c1fbe93.html"
+                                                        title="">Manage application users </a>
+                                                </td>
+
+                                                <td class="lightgreentext">5</td>
+                                                <td class="bluetext">
+                                                    <img src="images/traffic-in-progress.gif"
+                                                         title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                                         class="summary-icon"/>
+                                                    <span style="display:none">0</span>
+                                                </td>
+                                                <td class="lightgreentext">0.02</td>
+                                            </tr>
+
+
+                                            <tr class="test-PENDING">
+                                                <td>
+                                                    <img src="images/pending.png"
+                                                         title="PENDING"
+                                                         class="summary-icon"/>
+                                                    <span style="display:none">PENDING</span>
+                                                    
+                                                </td>
+                                                <td class="PENDING-text"><a
+                                                        href="9003a721421b605ee8dd1d5d5530ac48674d2b84b0c98aab683c2abf32c8563b.html"
+                                                        title="">Not able to manage users as operator </a>
+                                                </td>
+
+                                                <td class="lightgreentext">4</td>
+                                                <td class="bluetext">
+                                                    <img src="images/traffic-in-progress.gif"
+                                                         title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                                         class="summary-icon"/>
+                                                    <span style="display:none">0</span>
+                                                </td>
+                                                <td class="lightgreentext">0.01</td>
+                                            </tr>
+
+
+                                            <tr class="test-PENDING">
+                                                <td>
+                                                    <img src="images/pending.png"
+                                                         title="PENDING"
+                                                         class="summary-icon"/>
+                                                    <span style="display:none">PENDING</span>
+                                                    
+                                                </td>
+                                                <td class="PENDING-text"><a
+                                                        href="8a369ef0ca8b89ddbc78f804555ab2bdf06af4a9023615b54b020e0d7dcd17f5.html"
+                                                        title="">Post a job offer </a>
+                                                </td>
+
+                                                <td class="lightgreentext">6</td>
+                                                <td class="bluetext">
+                                                    <img src="images/traffic-in-progress.gif"
+                                                         title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                                         class="summary-icon"/>
+                                                    <span style="display:none">0</span>
+                                                </td>
+                                                <td class="lightgreentext">0.01</td>
+                                            </tr>
+
+
+                                            <tr class="test-PENDING">
+                                                <td>
+                                                    <img src="images/pending.png"
+                                                         title="PENDING"
+                                                         class="summary-icon"/>
+                                                    <span style="display:none">PENDING</span>
+                                                    
+                                                </td>
+                                                <td class="PENDING-text"><a
+                                                        href="5619099d28eb93840cd553bb8a8078bf9f33b2d790b32d420f44cc659e705264.html"
+                                                        title="">Search jobs by criteria </a>
+                                                </td>
+
+                                                <td class="lightgreentext">4</td>
+                                                <td class="bluetext">
+                                                    <img src="images/traffic-in-progress.gif"
+                                                         title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                                         class="summary-icon"/>
+                                                    <span style="display:none">0</span>
+                                                </td>
+                                                <td class="lightgreentext">0.01</td>
+                                            </tr>
+
+
+                                            <tr class="test-PENDING">
+                                                <td>
+                                                    <img src="images/pending.png"
+                                                         title="PENDING"
+                                                         class="summary-icon"/>
+                                                    <span style="display:none">PENDING</span>
+                                                    
+                                                </td>
+                                                <td class="PENDING-text"><a
+                                                        href="3fcd4d82fa88773e32c876b17abd8efb5862ff9cfe6ba5b66823cb59bcc76a0d.html"
+                                                        title="">Subscribe for job offers </a>
+                                                </td>
+
+                                                <td class="lightgreentext">4</td>
+                                                <td class="bluetext">
+                                                    <img src="images/traffic-in-progress.gif"
+                                                         title="Over the last 0 tests: 0 passed, 0 failed, 0 pending"
+                                                         class="summary-icon"/>
+                                                    <span style="display:none">0</span>
+                                                </td>
+                                                <td class="lightgreentext">0</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                </div>
             </div>
         </div>
     </div>

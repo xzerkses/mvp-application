@@ -194,6 +194,7 @@ body {
 
 .test-title-bar {
     padding: 8px;
+    color: darkblue;
 }
 .test-case-title {
     margin: 2px;
@@ -243,7 +244,9 @@ h3.discreet-story-header {
     vertical-align: text-top;
     padding: 4px;
 }
+
 .tag {
+    text-align: right;
     display: block;
     padding-top: 2px;
     margin: 0 0 5px;
@@ -273,6 +276,10 @@ i.tag {
 
 .test-ERROR {
     background-color: #f5ad59
+}
+
+.test-COMPROMISED {
+    background-color: plum;
 }
 
 .test-SKIPPED {
@@ -326,6 +333,10 @@ i.tag {
 .lightorangetext
 {
     font-family:euphemia, verdana, sans-serif; font-size:16px; color: #fd3e03;
+}
+.violettext
+{
+    font-family:euphemia, verdana, sans-serif; font-size:16px; color: darkviolet;
 }
 .greentext
 {
@@ -415,7 +426,11 @@ i.tag {
 }
 
 .skip-color {
-    color: #fd3e03;
+    color: darkgoldenrod;
+}
+
+.compromised-color  {
+    color: mediumvioletred;
 }
 
 .group-heading {
@@ -477,11 +492,15 @@ i.tag {
 }
 
 .FAILURE-text {
-    font-family:euphemia, verdana, sans-serif; font-size:14px; color: #fd3e03; font-style:italic;
+    font-family:euphemia, verdana, sans-serif; font-size:14px; color: #CC0033; font-style:italic;
 }
 
 .ERROR-text {
-    font-family:euphemia, verdana, sans-serif; font-size:14px; color: #fd3e03; font-style:italic;
+    font-family:euphemia, verdana, sans-serif; font-size:14px; color: darkorange; font-style:italic;
+}
+
+.COMPROMISED-text {
+    font-family:euphemia, verdana, sans-serif; font-size:14px; color: blueviolet; font-style:italic;
 }
 
 .PENDING-text {
@@ -737,19 +756,35 @@ font-family:euphemia, verdana, sans-serif; font-size:16px; color: #88a717; font-
 }
 
 .errorbar {
-    background-color: #fc6e1f; height: 1.1em;
+    background-color: darkorange; height: 1.1em;
+}
+
+.compromisedbar {
+    background-color: fuchsia; height: 1.1em;
 }
 
 .ignoredbar {
     background-color: #eeeadd; height: 1.1em;
 }
 
-
 .failingbar {
     background-color: #f8001f; height: 1.1em;
 }
 .passingbar {
     background-color: #30cb23; height: 1.1em;
+}
+
+.failing-color {
+    color: #f8001f;
+}
+.error-color {
+    color: darkorange;
+}
+.compromised-color {
+    color: fuchsia;
+}
+.passing-color {
+    color: #30cb23;
 }
 
 #accordion {
@@ -1165,7 +1200,7 @@ h4 {
     color: #8bb1df;
     color: #f8001f;
     color: #a20019;
-    color: #fc6e1f;
+    color: orange;
 }
 .datagrid table { border-collapse: collapse; text-align: left; width: 100%; }
 .datagrid {
@@ -1202,6 +1237,7 @@ h4 {
 .datagrid table tbody tr:last-child td { border-bottom: none; }
 .datagrid table tbody tr.test-FAILURE td { background: #ffcdce; color: red; }
 .datagrid table tbody tr.test-ERROR td { background: #fed6c2; color: red; }
+.datagrid table tbody tr.test-COMPROMISED td { background: plum; color: darkviolet; }
 .datagrid table tbody tr.test-SKIPPED td { background: #eeeadd;}
 .datagrid table tbody tr.test-IGNORED td { background: #eeeadd;}
 .datagrid table tbody tr.test-PENDING td { background: #e5f2eb;}
@@ -1473,6 +1509,19 @@ ul.second-level-requirements  {
 
 .modal-body p {
     word-wrap: break-word;
+    color: grey;
+}
+
+#results-dashboard {
+    color:grey;
+}
+
+.stacktrace {
+    color: grey;
+}
+
+.rest-content {
+    color: cornflowerblue;
 }
 
 #restModal .modal-content
@@ -1485,6 +1534,7 @@ ul.second-level-requirements  {
 {
     height:500px;
     overflow:auto;
+    color: grey;
 }
 
 .rest-query {
@@ -1495,6 +1545,38 @@ ul.second-level-requirements  {
     color:#428bca;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 12pt;
+}
 
+/* Icon colors */
+.pending-icon {
+    color: #0d78ae;
+}
 
+.success-icon {
+    color: green;
+}
+
+.failure-icon {
+    color: red;
+}
+
+.compromised-icon {
+    color: mediumvioletred;
+}
+
+.error-icon {
+    color: darkorange;
+}
+
+.ignored-icon {
+    color: grey;
+}
+
+.skip-icon {
+    color: darkgoldenrod;
+}
+
+.error-caption {
+    color: red;
+    font-style: italic;
 }
