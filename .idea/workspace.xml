@@ -1,29 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="35622377-b3f9-4fd1-8ec6-ba1fa4ef393e" name="Default Changelist" comment="fixes to aws deployment. still build failed due to No Configuration Template named 'mvp/default' found.">
-      <change afterPath="$PROJECT_DIR$/specification/src/test/resources/features/admin/admin_jobs.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/specification/src/test/resources/features/admin/admin_landing.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/specification/src/test/resources/features/admin/admin_security.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/specification/src/test/resources/features/microservice/microservice_manage_jobs.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/specification/src/test/resources/features/web/web_landing.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/specification/src/test/resources/features/web/web_monetization.feature" afterDir="false" />
+    <list default="true" id="35622377-b3f9-4fd1-8ec6-ba1fa4ef393e" name="Default Changelist" comment="several changes to project">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-admin/grails-app/views/job/applyInstructions/_widget.gsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-admin/grails-app/views/job/description/_widget.gsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-admin/grails-app/views/job/publisher/_widget.gsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-admin/grails-app/views/job/tags/_displayWidget.gsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-admin/grails-app/views/job/tags/_widget.gsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-admin/grails-app/views/job/type/_widget.gsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-admin/grails-app/views/login/auth.gsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-admin/grails-app/views/login/denied.gsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod-domain/grails-app/domain/app/admin/jobsboard/Job.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod-domain/grails-app/domain/app/admin/jobsboard/Publisher.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod-domain/grails-app/domain/app/admin/jobsboard/Tag.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod-domain/grails-app/domain/app/admin/jobsboard/Type.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod-domain/grails-app/domain/app/admin/security/Role.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod-domain/grails-app/domain/app/admin/security/User.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod-domain/grails-app/domain/app/admin/security/UserRole.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod-domain/grails-app/services/app/admin/StatisticsService.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/3.0/taskArtifacts/cache.properties.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.0/taskArtifacts/cache.properties.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/3.0/taskArtifacts/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.0/taskArtifacts/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/3.0/taskArtifacts/fileSnapshots.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.0/taskArtifacts/fileSnapshots.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/3.0/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.0/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/3.0/taskArtifacts/taskArtifacts.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.0/taskArtifacts/taskArtifacts.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/specification/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/specification/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/specification/src/test/java/app/admin/features/AcceptanceTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/specification/src/test/java/app/admin/features/AcceptanceTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/specification/src/test/java/app/admin/features/steps/AdminLandingStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/specification/src/test/java/app/admin/features/steps/AdminLandingStepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/specification/src/test/java/app/admin/features/steps/serenity/AdminSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/specification/src/test/java/app/admin/features/steps/serenity/AdminSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/specification/src/test/java/app/pages/AdminLandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/specification/src/test/java/app/admin/pages/AdminLandingPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/specification/target/site/serenity/build-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/specification/target/site/serenity/build-info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/specification/target/site/serenity/capabilities.html" beforeDir="false" afterPath="$PROJECT_DIR$/specification/target/site/serenity/capabilities.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/specification/target/site/serenity/css/core.css" beforeDir="false" afterPath="$PROJECT_DIR$/specification/target/site/serenity/css/core.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/specification/target/site/serenity/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/specification/target/site/serenity/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/specification/target/site/serenity/results.csv" beforeDir="false" afterPath="$PROJECT_DIR$/specification/target/site/serenity/results.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-admin/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app-admin/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-admin/grails-app/conf/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app-admin/grails-app/conf/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-admin/grails-app/init/app/admin/Application.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/app-admin/grails-app/init/app/admin/Application.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-admin/grails-app/init/app/admin/BootStrap.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/app-admin/grails-app/init/app/admin/BootStrap.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-admin/grails-app/views/index.gsp" beforeDir="false" afterPath="$PROJECT_DIR$/app-admin/grails-app/views/index.gsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod-domain/grails-app/init/mod/domain/Application.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/mod-domain/grails-app/init/app/domain/Application.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod-domain/grails-app/init/mod/domain/BootStrap.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/mod-domain/grails-app/init/app/domain/BootStrap.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod-domain/src/main/groovy/mod/domain/ModDomainGrailsPlugin.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/mod-domain/src/main/groovy/app/domain/ModDomainGrailsPlugin.groovy" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/web-sandbox/.gradle/" />
     <ignored path="$PROJECT_DIR$/web-sandbox/build/" />
@@ -2322,11 +2331,15 @@
     <ignored path="app-web/node_modules/karma-wrap-preprocessor/package.json" />
     <ignored path="app-web/node_modules/karma-wrap-preprocessor/README.md" />
     <ignored path="app-web/node_modules/.bin/" />
+    <ignored path="C:\Users\mkkvj\Documents\Grails\mvp-application\.idea\shelf/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/mvp_application$Grails__app_microservice.ic" NAME="Grails: app-microservice Coverage Results" MODIFIED="1539805228236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -2354,15 +2367,20 @@
     <session id="-1649922090">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="16" />
           <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.26" value="2" />
-          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.3" value="3" />
+          <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.4" value="3" />
+          <entry key="project.open.time.47" value="1" />
+          <entry key="project.open.time.48" value="1" />
           <entry key="project.open.time.5" value="3" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
@@ -2373,15 +2391,15 @@
           <entry key="class" value="1" />
           <entry key="css" value="1" />
           <entry key="feature" value="6" />
-          <entry key="gradle" value="17" />
+          <entry key="gradle" value="25" />
           <entry key="gradlew" value="1" />
-          <entry key="groovy" value="1" />
-          <entry key="gsp" value="1" />
-          <entry key="html" value="2" />
-          <entry key="java" value="5" />
+          <entry key="groovy" value="139" />
+          <entry key="gsp" value="47" />
+          <entry key="html" value="5" />
+          <entry key="java" value="6" />
           <entry key="js" value="3" />
-          <entry key="properties" value="11" />
-          <entry key="yml" value="1" />
+          <entry key="properties" value="12" />
+          <entry key="yml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -2389,27 +2407,28 @@
           <entry key="CLASS" value="1" />
           <entry key="CSS" value="1" />
           <entry key="Cucumber" value="6" />
-          <entry key="GSP" value="1" />
-          <entry key="Groovy" value="19" />
-          <entry key="HTML" value="2" />
-          <entry key="JAVA" value="6" />
+          <entry key="GSP" value="47" />
+          <entry key="Groovy" value="165" />
+          <entry key="HTML" value="5" />
+          <entry key="JAVA" value="7" />
           <entry key="JavaScript" value="3" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Properties" value="11" />
-          <entry key="YAML" value="1" />
+          <entry key="Properties" value="12" />
+          <entry key="YAML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.run.usages" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="Groovy" value="1548" />
+          <entry key="GSP" value="1138" />
+          <entry key="Groovy" value="8917" />
           <entry key="JAVA" value="1482" />
           <entry key="JavaScript" value="1" />
           <entry key="Jenkins file" value="241" />
-          <entry key="PLAIN_TEXT" value="575" />
+          <entry key="PLAIN_TEXT" value="1099" />
           <entry key="Properties" value="30" />
-          <entry key="YAML" value="184" />
+          <entry key="YAML" value="189" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -2417,12 +2436,14 @@
         <counts>
           <entry key="Jenkinsfile" value="322" />
           <entry key="class" value="1" />
-          <entry key="gradle" value="1482" />
+          <entry key="gradle" value="1569" />
+          <entry key="groovy" value="7282" />
+          <entry key="gsp" value="1138" />
           <entry key="java" value="1482" />
           <entry key="js" value="1" />
           <entry key="properties" value="30" />
-          <entry key="txt" value="560" />
-          <entry key="yml" value="184" />
+          <entry key="txt" value="1084" />
+          <entry key="yml" value="189" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -2435,76 +2456,91 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/specification/src/test/resources/features/microservice/microservice_manage_jobs.feature">
+        <entry file="file://$PROJECT_DIR$/app-admin/grails-app/domain/app/admin/security/Role.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+            <state relative-caret-position="102">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
             </state>
           </provider>
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/specification/src/test/resources/features/web/web_landing.feature">
+        <entry file="file://$PROJECT_DIR$/app-admin/grails-app/domain/app/admin/security/User.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+            <state relative-caret-position="102">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
             </state>
           </provider>
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/specification/src/test/resources/features/web/web_monetization.feature">
+        <entry file="file://$PROJECT_DIR$/app-admin/grails-app/domain/app/admin/jobsboard/Job.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
+            <state relative-caret-position="663">
+              <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
             </state>
           </provider>
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/specification/src/test/java/app/admin/features/AcceptanceTests.java">
+        <entry file="file://$PROJECT_DIR$/app-admin/grails-app/domain/app/admin/security/UserRole.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="86">
+              <caret line="77" column="22" selection-start-line="77" selection-start-column="22" selection-end-line="77" selection-end-column="22" />
+            </state>
+          </provider>
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mod-domain/grails-app/domain/app/admin/security/Role.groovy">
+          <provider selected="true" editor-type-id="text-editor" />
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mod-domain/grails-app/services/app/admin/StatisticsService.groovy">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app-admin/grails-app/views/login/auth.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="98" column="55" selection-start-line="98" selection-start-column="55" selection-end-line="98" selection-end-column="55" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/specification/target/site/serenity/capabilities.html">
+        <entry file="file://$PROJECT_DIR$/app-admin/grails-app/views/login/denied.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="474" column="60" selection-start-line="474" selection-start-column="60" selection-end-line="474" selection-end-column="60" />
+            <state relative-caret-position="68">
+              <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/specification/target/site/serenity/css/core.css">
+        <entry file="file://$PROJECT_DIR$/app-admin/grails-app/controllers/app/admin/jobsboard/JobController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="1221" column="37" selection-start-line="1221" selection-start-column="37" selection-end-line="1221" selection-end-column="37" />
+            <state relative-caret-position="323">
+              <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+              <folding>
+                <element signature="e#29#83#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/specification/src/test/resources/features/admin/admin_landing.feature">
+        <entry file="file://$PROJECT_DIR$/app-admin/grails-app/controllers/app/admin/jobsboard/TagController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="70" selection-start-line="8" selection-start-column="70" selection-end-line="8" selection-end-column="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/specification/src/test/resources/features/admin/admin_jobs.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+            <state relative-caret-position="680">
+              <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -2515,6 +2551,14 @@
     <findStrings>
       <find>net.serenity-bdd:serenity-junit:1.125-rc.3</find>
       <find>verifyPageContent</find>
+      <find>body</find>
+      <find>congrat</find>
+      <find>org.grails.orm.hibernate</find>
+      <find>g:form</find>
+      <find>tagss</find>
+      <find>title</find>
+      <find>Job List</find>
+      <find>mappin</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -2530,7 +2574,7 @@
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
-        <entry key="$PROJECT_DIR$" value="C:\gradle\gradle-3.0" />
+        <entry key="$PROJECT_DIR$" value="C:\Users\mkkvj\.gradle\wrapper\dists\gradle-3.0-bin\2z3tfybitalx2py5dr8rf2mti\gradle-3.0" />
       </map>
     </option>
     <option name="myGradleVersions">
@@ -5418,9 +5462,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="19989567417134" />
+        <entry key="$PROJECT_DIR$" value="19993383245166" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/app-admin/build.gradle" value="3641988030" />
+        <entry key="$PROJECT_DIR$/app-admin/build.gradle" value="3976545931" />
         <entry key="$PROJECT_DIR$/app-microservice/build.gradle" value="240080615" />
         <entry key="$PROJECT_DIR$/app-web/build.gradle" value="2266931490" />
         <entry key="$PROJECT_DIR$/build.gradle" value="911701090" />
@@ -5544,7 +5588,6 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.aether/aether-util/1.0.2.v20150114/b1f9362ae6d66b88cf3e2d6f608cbee2ccc4e6ad/aether-util-1.0.2.v20150114-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.aether/aether-impl/1.0.2.v20150114/89833da3565840d06428f6c163ff2d7e315620b7/aether-impl-1.0.2.v20150114-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-settings/3.1.1/d2de3bcaa4334f8c5ab787abf3c581ed54603981/maven-settings-3.1.1-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.sonatype.plexus/plexus-sec-dispatcher/1.3/4f1b3cd71ec7bbc5de8406fe560d3b34099d6a85/plexus-sec-dispatcher-1.3-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.2.6/b4e00fa279b1d45af3cb6daebcc1fee3f5402392/httpclient-4.2.6-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-beanutils/commons-beanutils/1.8.0/2818502bbb50bbcbd3f57e92a2bfe4d496f37688/commons-beanutils-1.8.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.2/78c50ebda5784937ca1615fc0e1d0cb35857d572/commons-collections-3.2.2-sources.jar" />
@@ -5557,7 +5600,6 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-utils/3.0.17/79cfd0962de410235e9315d38d6488123e9bb299/plexus-utils-3.0.17-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-interpolation/1.19/b98035bb61e65a49bf84396b0cab206abf0c9958/plexus-interpolation-1.19-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-component-annotations/1.5.5/b10462efcf1ac1915797958d479c724d1bd5008d/plexus-component-annotations-1.5.5-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.sonatype.plexus/plexus-cipher/1.4/fd919edf211954e41e0e60bc8b042bd2e1e5cc1f/plexus-cipher-1.4-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.2.5/4fd9ac94cd3c26551bc7aecd62fce8e49f076635/httpcore-4.2.5-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.6/61e9f9d11fe3e12ec62f633006e99d75fd7f19c8/commons-codec-1.6-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/xml-apis/xml-apis/1.3.04/d89105ccbe3fd823865330fd964233baf2b53e88/xml-apis-1.3.04-sources.jar" />
@@ -5659,7 +5701,7 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.aether/aether-util/1.0.2.v20150114/d2d3c74a5210544b5cdce89a2c1d1c62835692d1/aether-util-1.0.2.v20150114.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.aether/aether-impl/1.0.2.v20150114/f147539e6e60dfbda9ef7f6d750066170f61b7a1/aether-impl-1.0.2.v20150114.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-settings/3.1.1/311d38cf15ec7f5c713985862632db91b7a827af/maven-settings-3.1.1.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.sonatype.plexus/plexus-sec-dispatcher/1.3/dedc02034fb8fcd7615d66593228cb71709134b4/plexus-sec-dispatcher-1.3.jar" />
+                            <option value="$MAVEN_REPOSITORY$/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.2.6/e4ca30a6a3a075053a61c6fc850d2432dc012ba7/httpclient-4.2.6.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-beanutils/commons-beanutils/1.8.0/c651d5103c649c12b20d53731643e5fffceb536/commons-beanutils-1.8.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.2/8ad72fe39fa8c91eaaf12aadb21e0c3661fe26d5/commons-collections-3.2.2.jar" />
@@ -5672,7 +5714,7 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-utils/3.0.17/7b86f7a4ceffc8eadbb1a84207134af776f7cb95/plexus-utils-3.0.17.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-interpolation/1.19/b260ca7a23bb0d209771db7aae35049899433fe3/plexus-interpolation-1.19.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-component-annotations/1.5.5/c72f2660d0cbed24246ddb55d7fdc4f7374d2078/plexus-component-annotations-1.5.5.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.sonatype.plexus/plexus-cipher/1.4/50ade46f23bb38cd984b4ec560c46223432aac38/plexus-cipher-1.4.jar" />
+                            <option value="$MAVEN_REPOSITORY$/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.2.5/472f0f5f8dba5d1962cb9d7739feed739a31c30d/httpcore-4.2.5.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.6/b7f0fc8f61ecadeb3695f0b9464755eee44374d4/commons-codec-1.6.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/xml-apis/xml-apis/1.3.04/90b215f48fe42776c8c7f6e3509ec54e84fd65ef/xml-apis-1.3.04.jar" />
@@ -5774,7 +5816,6 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.aether/aether-util/1.0.2.v20150114/b1f9362ae6d66b88cf3e2d6f608cbee2ccc4e6ad/aether-util-1.0.2.v20150114-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.aether/aether-impl/1.0.2.v20150114/89833da3565840d06428f6c163ff2d7e315620b7/aether-impl-1.0.2.v20150114-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-settings/3.1.1/d2de3bcaa4334f8c5ab787abf3c581ed54603981/maven-settings-3.1.1-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.sonatype.plexus/plexus-sec-dispatcher/1.3/4f1b3cd71ec7bbc5de8406fe560d3b34099d6a85/plexus-sec-dispatcher-1.3-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.2.6/b4e00fa279b1d45af3cb6daebcc1fee3f5402392/httpclient-4.2.6-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-beanutils/commons-beanutils/1.8.0/2818502bbb50bbcbd3f57e92a2bfe4d496f37688/commons-beanutils-1.8.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.2/78c50ebda5784937ca1615fc0e1d0cb35857d572/commons-collections-3.2.2-sources.jar" />
@@ -5787,7 +5828,6 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-utils/3.0.17/79cfd0962de410235e9315d38d6488123e9bb299/plexus-utils-3.0.17-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-interpolation/1.19/b98035bb61e65a49bf84396b0cab206abf0c9958/plexus-interpolation-1.19-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-component-annotations/1.5.5/b10462efcf1ac1915797958d479c724d1bd5008d/plexus-component-annotations-1.5.5-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.sonatype.plexus/plexus-cipher/1.4/fd919edf211954e41e0e60bc8b042bd2e1e5cc1f/plexus-cipher-1.4-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.2.5/4fd9ac94cd3c26551bc7aecd62fce8e49f076635/httpcore-4.2.5-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.6/61e9f9d11fe3e12ec62f633006e99d75fd7f19c8/commons-codec-1.6-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/xml-apis/xml-apis/1.3.04/d89105ccbe3fd823865330fd964233baf2b53e88/xml-apis-1.3.04-sources.jar" />
@@ -5880,7 +5920,7 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.aether/aether-util/1.0.2.v20150114/d2d3c74a5210544b5cdce89a2c1d1c62835692d1/aether-util-1.0.2.v20150114.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.aether/aether-impl/1.0.2.v20150114/f147539e6e60dfbda9ef7f6d750066170f61b7a1/aether-impl-1.0.2.v20150114.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-settings/3.1.1/311d38cf15ec7f5c713985862632db91b7a827af/maven-settings-3.1.1.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.sonatype.plexus/plexus-sec-dispatcher/1.3/dedc02034fb8fcd7615d66593228cb71709134b4/plexus-sec-dispatcher-1.3.jar" />
+                            <option value="$MAVEN_REPOSITORY$/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.2.6/e4ca30a6a3a075053a61c6fc850d2432dc012ba7/httpclient-4.2.6.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-beanutils/commons-beanutils/1.8.0/c651d5103c649c12b20d53731643e5fffceb536/commons-beanutils-1.8.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.2/8ad72fe39fa8c91eaaf12aadb21e0c3661fe26d5/commons-collections-3.2.2.jar" />
@@ -5893,7 +5933,7 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-utils/3.0.17/7b86f7a4ceffc8eadbb1a84207134af776f7cb95/plexus-utils-3.0.17.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-interpolation/1.19/b260ca7a23bb0d209771db7aae35049899433fe3/plexus-interpolation-1.19.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-component-annotations/1.5.5/c72f2660d0cbed24246ddb55d7fdc4f7374d2078/plexus-component-annotations-1.5.5.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.sonatype.plexus/plexus-cipher/1.4/50ade46f23bb38cd984b4ec560c46223432aac38/plexus-cipher-1.4.jar" />
+                            <option value="$MAVEN_REPOSITORY$/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.2.5/472f0f5f8dba5d1962cb9d7739feed739a31c30d/httpcore-4.2.5.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.6/b7f0fc8f61ecadeb3695f0b9464755eee44374d4/commons-codec-1.6.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/xml-apis/xml-apis/1.3.04/90b215f48fe42776c8c7f6e3509ec54e84fd65ef/xml-apis-1.3.04.jar" />
@@ -6026,7 +6066,6 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.aether/aether-util/1.0.2.v20150114/b1f9362ae6d66b88cf3e2d6f608cbee2ccc4e6ad/aether-util-1.0.2.v20150114-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.aether/aether-impl/1.0.2.v20150114/89833da3565840d06428f6c163ff2d7e315620b7/aether-impl-1.0.2.v20150114-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-settings/3.1.1/d2de3bcaa4334f8c5ab787abf3c581ed54603981/maven-settings-3.1.1-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.sonatype.plexus/plexus-sec-dispatcher/1.3/4f1b3cd71ec7bbc5de8406fe560d3b34099d6a85/plexus-sec-dispatcher-1.3-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.6/af4d76be0c46ee26b0d9d1d4a34d244a633cac84/httpclient-4.3.6-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-beanutils/commons-beanutils/1.8.0/2818502bbb50bbcbd3f57e92a2bfe4d496f37688/commons-beanutils-1.8.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.2/78c50ebda5784937ca1615fc0e1d0cb35857d572/commons-collections-3.2.2-sources.jar" />
@@ -6039,7 +6078,6 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-utils/3.0.17/79cfd0962de410235e9315d38d6488123e9bb299/plexus-utils-3.0.17-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-interpolation/1.19/b98035bb61e65a49bf84396b0cab206abf0c9958/plexus-interpolation-1.19-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-component-annotations/1.5.5/b10462efcf1ac1915797958d479c724d1bd5008d/plexus-component-annotations-1.5.5-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.sonatype.plexus/plexus-cipher/1.4/fd919edf211954e41e0e60bc8b042bd2e1e5cc1f/plexus-cipher-1.4-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.3/1b0aa62a6a91e9fa00c16f0a4a2c874804ed3b1e/httpcore-4.3.3-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.6/61e9f9d11fe3e12ec62f633006e99d75fd7f19c8/commons-codec-1.6-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/xml-apis/xml-apis/1.3.04/d89105ccbe3fd823865330fd964233baf2b53e88/xml-apis-1.3.04-sources.jar" />
@@ -6163,7 +6201,7 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.aether/aether-util/1.0.2.v20150114/d2d3c74a5210544b5cdce89a2c1d1c62835692d1/aether-util-1.0.2.v20150114.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.aether/aether-impl/1.0.2.v20150114/f147539e6e60dfbda9ef7f6d750066170f61b7a1/aether-impl-1.0.2.v20150114.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-settings/3.1.1/311d38cf15ec7f5c713985862632db91b7a827af/maven-settings-3.1.1.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.sonatype.plexus/plexus-sec-dispatcher/1.3/dedc02034fb8fcd7615d66593228cb71709134b4/plexus-sec-dispatcher-1.3.jar" />
+                            <option value="$MAVEN_REPOSITORY$/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.6/4c47155e3e6c9a41a28db36680b828ced53b8af4/httpclient-4.3.6.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-beanutils/commons-beanutils/1.8.0/c651d5103c649c12b20d53731643e5fffceb536/commons-beanutils-1.8.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.2/8ad72fe39fa8c91eaaf12aadb21e0c3661fe26d5/commons-collections-3.2.2.jar" />
@@ -6176,7 +6214,7 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-utils/3.0.17/7b86f7a4ceffc8eadbb1a84207134af776f7cb95/plexus-utils-3.0.17.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-interpolation/1.19/b260ca7a23bb0d209771db7aae35049899433fe3/plexus-interpolation-1.19.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-component-annotations/1.5.5/c72f2660d0cbed24246ddb55d7fdc4f7374d2078/plexus-component-annotations-1.5.5.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.sonatype.plexus/plexus-cipher/1.4/50ade46f23bb38cd984b4ec560c46223432aac38/plexus-cipher-1.4.jar" />
+                            <option value="$MAVEN_REPOSITORY$/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.3/f91b7a4aadc5cf486df6e4634748d7dd7a73f06d/httpcore-4.3.3.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.6/b7f0fc8f61ecadeb3695f0b9464755eee44374d4/commons-codec-1.6.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/xml-apis/xml-apis/1.3.04/90b215f48fe42776c8c7f6e3509ec54e84fd65ef/xml-apis-1.3.04.jar" />
@@ -6249,7 +6287,6 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.aether/aether-util/1.0.2.v20150114/b1f9362ae6d66b88cf3e2d6f608cbee2ccc4e6ad/aether-util-1.0.2.v20150114-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.aether/aether-impl/1.0.2.v20150114/89833da3565840d06428f6c163ff2d7e315620b7/aether-impl-1.0.2.v20150114-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-settings/3.1.1/d2de3bcaa4334f8c5ab787abf3c581ed54603981/maven-settings-3.1.1-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.sonatype.plexus/plexus-sec-dispatcher/1.3/4f1b3cd71ec7bbc5de8406fe560d3b34099d6a85/plexus-sec-dispatcher-1.3-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.2.6/b4e00fa279b1d45af3cb6daebcc1fee3f5402392/httpclient-4.2.6-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-beanutils/commons-beanutils/1.8.0/2818502bbb50bbcbd3f57e92a2bfe4d496f37688/commons-beanutils-1.8.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.1/fa095ef874374e5b2a11f8b06c26a5d68c7cb3a4/commons-collections-3.2.1-sources.jar" />
@@ -6260,7 +6297,6 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-utils/3.0.17/79cfd0962de410235e9315d38d6488123e9bb299/plexus-utils-3.0.17-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-interpolation/1.19/b98035bb61e65a49bf84396b0cab206abf0c9958/plexus-interpolation-1.19-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-component-annotations/1.5.5/b10462efcf1ac1915797958d479c724d1bd5008d/plexus-component-annotations-1.5.5-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.sonatype.plexus/plexus-cipher/1.4/fd919edf211954e41e0e60bc8b042bd2e1e5cc1f/plexus-cipher-1.4-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.2.5/4fd9ac94cd3c26551bc7aecd62fce8e49f076635/httpcore-4.2.5-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.6/61e9f9d11fe3e12ec62f633006e99d75fd7f19c8/commons-codec-1.6-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/xml-apis/xml-apis/1.3.04/d89105ccbe3fd823865330fd964233baf2b53e88/xml-apis-1.3.04-sources.jar" />
@@ -6314,7 +6350,7 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.aether/aether-util/1.0.2.v20150114/d2d3c74a5210544b5cdce89a2c1d1c62835692d1/aether-util-1.0.2.v20150114.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.aether/aether-impl/1.0.2.v20150114/f147539e6e60dfbda9ef7f6d750066170f61b7a1/aether-impl-1.0.2.v20150114.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-settings/3.1.1/311d38cf15ec7f5c713985862632db91b7a827af/maven-settings-3.1.1.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.sonatype.plexus/plexus-sec-dispatcher/1.3/dedc02034fb8fcd7615d66593228cb71709134b4/plexus-sec-dispatcher-1.3.jar" />
+                            <option value="$MAVEN_REPOSITORY$/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.2.6/e4ca30a6a3a075053a61c6fc850d2432dc012ba7/httpclient-4.2.6.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-beanutils/commons-beanutils/1.8.0/c651d5103c649c12b20d53731643e5fffceb536/commons-beanutils-1.8.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.1/761ea405b9b37ced573d2df0d1e3a4e0f9edc668/commons-collections-3.2.1.jar" />
@@ -6325,7 +6361,7 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-utils/3.0.17/7b86f7a4ceffc8eadbb1a84207134af776f7cb95/plexus-utils-3.0.17.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-interpolation/1.19/b260ca7a23bb0d209771db7aae35049899433fe3/plexus-interpolation-1.19.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-component-annotations/1.5.5/c72f2660d0cbed24246ddb55d7fdc4f7374d2078/plexus-component-annotations-1.5.5.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.sonatype.plexus/plexus-cipher/1.4/50ade46f23bb38cd984b4ec560c46223432aac38/plexus-cipher-1.4.jar" />
+                            <option value="$MAVEN_REPOSITORY$/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.2.5/472f0f5f8dba5d1962cb9d7739feed739a31c30d/httpcore-4.2.5.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.6/b7f0fc8f61ecadeb3695f0b9464755eee44374d4/commons-codec-1.6.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/xml-apis/xml-apis/1.3.04/90b215f48fe42776c8c7f6e3509ec54e84fd65ef/xml-apis-1.3.04.jar" />
@@ -6422,7 +6458,6 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.aether/aether-util/1.0.2.v20150114/b1f9362ae6d66b88cf3e2d6f608cbee2ccc4e6ad/aether-util-1.0.2.v20150114-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.aether/aether-impl/1.0.2.v20150114/89833da3565840d06428f6c163ff2d7e315620b7/aether-impl-1.0.2.v20150114-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-settings/3.1.1/d2de3bcaa4334f8c5ab787abf3c581ed54603981/maven-settings-3.1.1-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.sonatype.plexus/plexus-sec-dispatcher/1.3/4f1b3cd71ec7bbc5de8406fe560d3b34099d6a85/plexus-sec-dispatcher-1.3-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.2.6/b4e00fa279b1d45af3cb6daebcc1fee3f5402392/httpclient-4.2.6-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-beanutils/commons-beanutils/1.8.0/2818502bbb50bbcbd3f57e92a2bfe4d496f37688/commons-beanutils-1.8.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.2/78c50ebda5784937ca1615fc0e1d0cb35857d572/commons-collections-3.2.2-sources.jar" />
@@ -6435,7 +6470,6 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-utils/3.0.17/79cfd0962de410235e9315d38d6488123e9bb299/plexus-utils-3.0.17-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-interpolation/1.19/b98035bb61e65a49bf84396b0cab206abf0c9958/plexus-interpolation-1.19-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-component-annotations/1.5.5/b10462efcf1ac1915797958d479c724d1bd5008d/plexus-component-annotations-1.5.5-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.sonatype.plexus/plexus-cipher/1.4/fd919edf211954e41e0e60bc8b042bd2e1e5cc1f/plexus-cipher-1.4-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.2.5/4fd9ac94cd3c26551bc7aecd62fce8e49f076635/httpcore-4.2.5-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.6/61e9f9d11fe3e12ec62f633006e99d75fd7f19c8/commons-codec-1.6-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/xml-apis/xml-apis/1.3.04/d89105ccbe3fd823865330fd964233baf2b53e88/xml-apis-1.3.04-sources.jar" />
@@ -6528,7 +6562,7 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.aether/aether-util/1.0.2.v20150114/d2d3c74a5210544b5cdce89a2c1d1c62835692d1/aether-util-1.0.2.v20150114.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.aether/aether-impl/1.0.2.v20150114/f147539e6e60dfbda9ef7f6d750066170f61b7a1/aether-impl-1.0.2.v20150114.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-settings/3.1.1/311d38cf15ec7f5c713985862632db91b7a827af/maven-settings-3.1.1.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.sonatype.plexus/plexus-sec-dispatcher/1.3/dedc02034fb8fcd7615d66593228cb71709134b4/plexus-sec-dispatcher-1.3.jar" />
+                            <option value="$MAVEN_REPOSITORY$/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.2.6/e4ca30a6a3a075053a61c6fc850d2432dc012ba7/httpclient-4.2.6.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-beanutils/commons-beanutils/1.8.0/c651d5103c649c12b20d53731643e5fffceb536/commons-beanutils-1.8.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.2/8ad72fe39fa8c91eaaf12aadb21e0c3661fe26d5/commons-collections-3.2.2.jar" />
@@ -6541,7 +6575,7 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-utils/3.0.17/7b86f7a4ceffc8eadbb1a84207134af776f7cb95/plexus-utils-3.0.17.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-interpolation/1.19/b260ca7a23bb0d209771db7aae35049899433fe3/plexus-interpolation-1.19.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-component-annotations/1.5.5/c72f2660d0cbed24246ddb55d7fdc4f7374d2078/plexus-component-annotations-1.5.5.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.sonatype.plexus/plexus-cipher/1.4/50ade46f23bb38cd984b4ec560c46223432aac38/plexus-cipher-1.4.jar" />
+                            <option value="$MAVEN_REPOSITORY$/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.2.5/472f0f5f8dba5d1962cb9d7739feed739a31c30d/httpcore-4.2.5.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.6/b7f0fc8f61ecadeb3695f0b9464755eee44374d4/commons-codec-1.6.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/xml-apis/xml-apis/1.3.04/90b215f48fe42776c8c7f6e3509ec54e84fd65ef/xml-apis-1.3.04.jar" />
@@ -6613,7 +6647,6 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.aether/aether-util/1.0.2.v20150114/b1f9362ae6d66b88cf3e2d6f608cbee2ccc4e6ad/aether-util-1.0.2.v20150114-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.aether/aether-impl/1.0.2.v20150114/89833da3565840d06428f6c163ff2d7e315620b7/aether-impl-1.0.2.v20150114-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-settings/3.1.1/d2de3bcaa4334f8c5ab787abf3c581ed54603981/maven-settings-3.1.1-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.sonatype.plexus/plexus-sec-dispatcher/1.3/4f1b3cd71ec7bbc5de8406fe560d3b34099d6a85/plexus-sec-dispatcher-1.3-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.2.6/b4e00fa279b1d45af3cb6daebcc1fee3f5402392/httpclient-4.2.6-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-beanutils/commons-beanutils/1.8.0/2818502bbb50bbcbd3f57e92a2bfe4d496f37688/commons-beanutils-1.8.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.1/fa095ef874374e5b2a11f8b06c26a5d68c7cb3a4/commons-collections-3.2.1-sources.jar" />
@@ -6624,7 +6657,6 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-utils/3.0.17/79cfd0962de410235e9315d38d6488123e9bb299/plexus-utils-3.0.17-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-interpolation/1.19/b98035bb61e65a49bf84396b0cab206abf0c9958/plexus-interpolation-1.19-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-component-annotations/1.5.5/b10462efcf1ac1915797958d479c724d1bd5008d/plexus-component-annotations-1.5.5-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.sonatype.plexus/plexus-cipher/1.4/fd919edf211954e41e0e60bc8b042bd2e1e5cc1f/plexus-cipher-1.4-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.2.5/4fd9ac94cd3c26551bc7aecd62fce8e49f076635/httpcore-4.2.5-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.6/61e9f9d11fe3e12ec62f633006e99d75fd7f19c8/commons-codec-1.6-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/xml-apis/xml-apis/1.3.04/d89105ccbe3fd823865330fd964233baf2b53e88/xml-apis-1.3.04-sources.jar" />
@@ -6682,7 +6714,7 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.aether/aether-util/1.0.2.v20150114/d2d3c74a5210544b5cdce89a2c1d1c62835692d1/aether-util-1.0.2.v20150114.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.aether/aether-impl/1.0.2.v20150114/f147539e6e60dfbda9ef7f6d750066170f61b7a1/aether-impl-1.0.2.v20150114.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-settings/3.1.1/311d38cf15ec7f5c713985862632db91b7a827af/maven-settings-3.1.1.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.sonatype.plexus/plexus-sec-dispatcher/1.3/dedc02034fb8fcd7615d66593228cb71709134b4/plexus-sec-dispatcher-1.3.jar" />
+                            <option value="$MAVEN_REPOSITORY$/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.2.6/e4ca30a6a3a075053a61c6fc850d2432dc012ba7/httpclient-4.2.6.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-beanutils/commons-beanutils/1.8.0/c651d5103c649c12b20d53731643e5fffceb536/commons-beanutils-1.8.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.1/761ea405b9b37ced573d2df0d1e3a4e0f9edc668/commons-collections-3.2.1.jar" />
@@ -6693,7 +6725,7 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-utils/3.0.17/7b86f7a4ceffc8eadbb1a84207134af776f7cb95/plexus-utils-3.0.17.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-interpolation/1.19/b260ca7a23bb0d209771db7aae35049899433fe3/plexus-interpolation-1.19.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-component-annotations/1.5.5/c72f2660d0cbed24246ddb55d7fdc4f7374d2078/plexus-component-annotations-1.5.5.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.sonatype.plexus/plexus-cipher/1.4/50ade46f23bb38cd984b4ec560c46223432aac38/plexus-cipher-1.4.jar" />
+                            <option value="$MAVEN_REPOSITORY$/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.2.5/472f0f5f8dba5d1962cb9d7739feed739a31c30d/httpcore-4.2.5.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.6/b7f0fc8f61ecadeb3695f0b9464755eee44374d4/commons-codec-1.6.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/xml-apis/xml-apis/1.3.04/90b215f48fe42776c8c7f6e3509ec54e84fd65ef/xml-apis-1.3.04.jar" />
@@ -6807,7 +6839,6 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.aether/aether-util/1.0.2.v20150114/b1f9362ae6d66b88cf3e2d6f608cbee2ccc4e6ad/aether-util-1.0.2.v20150114-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.aether/aether-impl/1.0.2.v20150114/89833da3565840d06428f6c163ff2d7e315620b7/aether-impl-1.0.2.v20150114-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-settings/3.1.1/d2de3bcaa4334f8c5ab787abf3c581ed54603981/maven-settings-3.1.1-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.sonatype.plexus/plexus-sec-dispatcher/1.3/4f1b3cd71ec7bbc5de8406fe560d3b34099d6a85/plexus-sec-dispatcher-1.3-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.2/b9f9e3e5255b6ddc3bf21be05428c7a60d00e042/httpclient-4.5.2-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-beanutils/commons-beanutils/1.8.0/2818502bbb50bbcbd3f57e92a2bfe4d496f37688/commons-beanutils-1.8.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.2/78c50ebda5784937ca1615fc0e1d0cb35857d572/commons-collections-3.2.2-sources.jar" />
@@ -6821,7 +6852,6 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-utils/3.0.17/79cfd0962de410235e9315d38d6488123e9bb299/plexus-utils-3.0.17-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-interpolation/1.19/b98035bb61e65a49bf84396b0cab206abf0c9958/plexus-interpolation-1.19-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-component-annotations/1.5.5/b10462efcf1ac1915797958d479c724d1bd5008d/plexus-component-annotations-1.5.5-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.sonatype.plexus/plexus-cipher/1.4/fd919edf211954e41e0e60bc8b042bd2e1e5cc1f/plexus-cipher-1.4-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.4/c5c19e3e6af6b452def290cde12a3ee4c35c893c/httpcore-4.4.4-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/3f15fff45d57656685abfee9e8302bf14580044c/commons-codec-1.9-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/xml-apis/xml-apis/1.3.04/d89105ccbe3fd823865330fd964233baf2b53e88/xml-apis-1.3.04-sources.jar" />
@@ -6933,7 +6963,7 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.aether/aether-util/1.0.2.v20150114/d2d3c74a5210544b5cdce89a2c1d1c62835692d1/aether-util-1.0.2.v20150114.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.aether/aether-impl/1.0.2.v20150114/f147539e6e60dfbda9ef7f6d750066170f61b7a1/aether-impl-1.0.2.v20150114.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-settings/3.1.1/311d38cf15ec7f5c713985862632db91b7a827af/maven-settings-3.1.1.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.sonatype.plexus/plexus-sec-dispatcher/1.3/dedc02034fb8fcd7615d66593228cb71709134b4/plexus-sec-dispatcher-1.3.jar" />
+                            <option value="$MAVEN_REPOSITORY$/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.2/733db77aa8d9b2d68015189df76ab06304406e50/httpclient-4.5.2.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-beanutils/commons-beanutils/1.8.0/c651d5103c649c12b20d53731643e5fffceb536/commons-beanutils-1.8.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.2/8ad72fe39fa8c91eaaf12aadb21e0c3661fe26d5/commons-collections-3.2.2.jar" />
@@ -6947,7 +6977,7 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-utils/3.0.17/7b86f7a4ceffc8eadbb1a84207134af776f7cb95/plexus-utils-3.0.17.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-interpolation/1.19/b260ca7a23bb0d209771db7aae35049899433fe3/plexus-interpolation-1.19.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-component-annotations/1.5.5/c72f2660d0cbed24246ddb55d7fdc4f7374d2078/plexus-component-annotations-1.5.5.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.sonatype.plexus/plexus-cipher/1.4/50ade46f23bb38cd984b4ec560c46223432aac38/plexus-cipher-1.4.jar" />
+                            <option value="$MAVEN_REPOSITORY$/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.4/b31526a230871fbe285fbcbe2813f9c0839ae9b0/httpcore-4.4.4.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/9ce04e34240f674bc72680f8b843b1457383161a/commons-codec-1.9.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/xml-apis/xml-apis/1.3.04/90b215f48fe42776c8c7f6e3509ec54e84fd65ef/xml-apis-1.3.04.jar" />
@@ -7056,23 +7086,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/gradle.properties" />
-        <option value="$PROJECT_DIR$/mod-sandbox/gradle.properties" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/web-sandbox/gradle.properties" />
-        <option value="$PROJECT_DIR$/web-sandbox/grails-app/conf/application.yml" />
-        <option value="$PROJECT_DIR$/web-sandbox/build.gradle" />
-        <option value="$PROJECT_DIR$/Jenkinsfile" />
-        <option value="$PROJECT_DIR$/app-admin/build.gradle" />
-        <option value="$PROJECT_DIR$/app-microservice/build.gradle" />
-        <option value="$PROJECT_DIR$/app-web/node_modules/karma/node_modules/log4js/lib/layouts.js" />
-        <option value="$PROJECT_DIR$/settings.gradle" />
-        <option value="$PROJECT_DIR$/app-web/build.gradle" />
         <option value="$PROJECT_DIR$/specification/build.gradle" />
         <option value="$PROJECT_DIR$/specification/src/test/resources/features/admin/features/AcceptanceTests.java" />
         <option value="$PROJECT_DIR$/specification/src/test/java/app/admin/features/steps/AdminLandingStepDefinitions.java" />
         <option value="$PROJECT_DIR$/specification/src/test/java/app/admin/features/steps/serenity/AdminSteps.java" />
         <option value="$PROJECT_DIR$/specification/src/test/java/app/pages/AdminLandingPage.java" />
+        <option value="$PROJECT_DIR$/app-admin/grails-app/views/denied.gsp" />
+        <option value="$PROJECT_DIR$/app-admin/grails-app/views/auth.gsp" />
+        <option value="$PROJECT_DIR$/app-admin/grails-app/conf/application.groovy" />
+        <option value="$PROJECT_DIR$/app-admin/grails-app/domain/mod/domain/Job.groovy" />
+        <option value="$PROJECT_DIR$/mod-domain/grails-app/domain/mod/domain/Publisher.groovy" />
+        <option value="$PROJECT_DIR$/mod-domain/grails-app/domain/mod/domain/Tag.groovy" />
+        <option value="$PROJECT_DIR$/mod-domain/grails-app/domain/mod/domain/Type.groovy" />
+        <option value="$PROJECT_DIR$/mod-domain/grails-app/domain/app/domain/Publisher.groovy" />
+        <option value="$PROJECT_DIR$/mod-domain/grails-app/domain/app/domain/jobsboard/Publisher.groovy" />
+        <option value="$PROJECT_DIR$/mod-domain/grails-app/domain/app/domain/jobsboard/Type.groovy" />
+        <option value="$PROJECT_DIR$/mod-domain/grails-app/domain/app/domain/jobsboard/Job.groovy" />
+        <option value="$PROJECT_DIR$/app-admin/grails-app/domain/jobsboard/Tag.groovy" />
+        <option value="$PROJECT_DIR$/app-admin/src/test/groovy/app/admin/jobsboard/JobSpec.groovy" />
+        <option value="$PROJECT_DIR$/app-admin/src/test/groovy/app/admin/jobsboard/PublisherSpec.groovy" />
+        <option value="$PROJECT_DIR$/app-admin/grails-app/domain/jobsboard/Job.groovy" />
+        <option value="$PROJECT_DIR$/mod-domain/grails-app/domain/mod/domain/Job.groovy" />
+        <option value="$PROJECT_DIR$/mod-domain/grails-app/services/app/admin/StatisticsService.groovy" />
+        <option value="$PROJECT_DIR$/app-admin/grails-app/domain/security/UserRole.groovy" />
+        <option value="$PROJECT_DIR$/app-admin/grails-app/domain/app/admin/security/UserRole.groovy" />
+        <option value="$PROJECT_DIR$/app-admin/src/test/groovy/app/admin/jobsboard/TypeSpec.groovy" />
+        <option value="$PROJECT_DIR$/app-admin/src/test/groovy/app/admin/jobsboard/TagSpec.groovy" />
+        <option value="$PROJECT_DIR$/app-admin/build.gradle" />
+        <option value="$PROJECT_DIR$/app-admin/grails-app/views/index.gsp" />
+        <option value="$PROJECT_DIR$/app-admin/src/test/groovy/app/admin/StatisticsServiceSpec.groovy" />
+        <option value="$PROJECT_DIR$/app-admin/grails-app/taglib/app/admin/StatisticsTagLib.groovy" />
+        <option value="$PROJECT_DIR$/app-admin/src/test/groovy/app/admin/StatisticsTagLibSpec.groovy" />
+        <option value="$PROJECT_DIR$/app-admin/grails-app/services/app/admin/StatisticsService.groovy" />
+        <option value="$PROJECT_DIR$/app-admin/grails-app/views/job/tags/_widget.gsp" />
+        <option value="$PROJECT_DIR$/app-admin/grails-app/views/job/tags/_displayWidget.gsp" />
+        <option value="$PROJECT_DIR$/app-admin/grails-app/views/job/type/_widget.gsp" />
+        <option value="$PROJECT_DIR$/app-admin/grails-app/views/job/publisher/_widget.gsp" />
+        <option value="$PROJECT_DIR$/app-admin/grails-app/views/job/publisher/_displayWidget.gsp" />
+        <option value="$PROJECT_DIR$/app-admin/grails-app/views/job/type/_displayWidget.gsp" />
+        <option value="$PROJECT_DIR$/app-admin/grails-app/views/job/applyInstructions/_widget.gsp" />
+        <option value="$PROJECT_DIR$/app-admin/grails-app/init/app/admin/BootStrap.groovy" />
+        <option value="$PROJECT_DIR$/app-admin/grails-app/init/app/admin/Application.groovy" />
+        <option value="$PROJECT_DIR$/app-admin/grails-app/conf/application.yml" />
+        <option value="$PROJECT_DIR$/app-admin/grails-app/views/job/description/_widget.gsp" />
+        <option value="$PROJECT_DIR$/app-admin/grails-app/controllers/app/admin/jobsboard/PublisherController.groovy" />
+        <option value="$PROJECT_DIR$/app-admin/grails-app/controllers/app/admin/jobsboard/JobController.groovy" />
+        <option value="$PROJECT_DIR$/app-admin/grails-app/controllers/app/admin/security/UserController.groovy" />
+        <option value="$PROJECT_DIR$/app-admin/grails-app/controllers/app/admin/jobsboard/TagController.groovy" />
+        <option value="$PROJECT_DIR$/app-admin/grails-app/domain/app/admin/jobsboard/Job.groovy" />
+        <option value="$PROJECT_DIR$/app-admin/grails-app/domain/app/admin/jobsboard/Publisher.groovy" />
+        <option value="$PROJECT_DIR$/app-admin/grails-app/domain/app/admin/jobsboard/Tag.groovy" />
+        <option value="$PROJECT_DIR$/app-admin/grails-app/domain/app/admin/jobsboard/Type.groovy" />
       </list>
     </option>
   </component>
@@ -7851,10 +7915,10 @@
       <path value="$PROJECT_DIR$/app-web/node_modules/phantomjs/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="846" />
-    <option name="width" value="1083" />
-    <option name="height" value="1092" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="648" />
+    <option name="width" value="1283" />
+    <option name="height" value="1091" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -7862,6 +7926,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -7871,49 +7937,69 @@
             </path>
             <path>
               <item name="mvp-application" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="mvp-application" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app-admin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="mvp-application" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="mvp-application" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app-admin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="grails-app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="mvp-application" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
-              <item name="com.intellij.database" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+              <item name="mvp-application" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app-admin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="grails-app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mvp-application" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mvp-application" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="mod-domain" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="mvp-application" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mvp-application" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="mod-domain" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="grails-app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="Grails" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539720612392" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542129765951" />
     <property name="dynamic.classpath" value="true" />
-    <property name="grails.last.selected.app.url" value="file://$PROJECT_DIR$/app-admin" />
+    <property name="grails.last.selected.app.url" value="file://$PROJECT_DIR$/app-web" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../groovyfx/groovyfx.ipr" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
     <property name="settings.editor.splitter.proportion" value="0.22800379" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/../../Ohjelmointi/build2.gradle" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\mkkvj\Documents\Grails\mvp-application\mod-sandbox" />
-      <recent name="C:\Users\mkkvj\Documents\Grails\mvp-application\web-sandbox" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\mkkvj\Documents\Grails\mvp-application\specification\src\test\java\app\admin\features" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="app.admin" />
+      <recent name="mod.domain" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mkkvj\Documents\Grails\mvp-application\mod-domain\grails-app" />
+      <recent name="C:\Users\mkkvj\Documents\Grails\mvp-application\app-admin\grails-app\views\job\applyInstructions" />
+      <recent name="C:\Users\mkkvj\Documents\Grails\mvp-application\app-admin\grails-app\views\job\description" />
+      <recent name="C:\Users\mkkvj\Documents\Grails\mvp-application\app-admin\grails-app\views\job\publisher" />
+      <recent name="C:\Users\mkkvj\Documents\Grails\mvp-application\app-admin\grails-app\views\job\type" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -7928,7 +8014,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Grails.Grails: app-microservice">
+  <component name="RunManager" selected="Grails.Grails: app-admin">
     <configuration name="Grails: app-admin" type="GrailsRunConfigurationType" factoryName="Grails">
       <setting name="vmparams" value="" />
       <setting name="cmdLine" value="run-app" />
@@ -8032,6 +8118,12 @@
       <workItem from="1538331663890" duration="8084000" />
       <workItem from="1538419630383" duration="13192000" />
       <workItem from="1539705857021" duration="1425000" />
+      <workItem from="1539799650252" duration="64527000" />
+      <workItem from="1540588143015" duration="60697000" />
+      <workItem from="1542041593702" duration="922000" />
+      <workItem from="1542043814652" duration="1288000" />
+      <workItem from="1542051644285" duration="1180000" />
+      <workItem from="1542126921958" duration="2080000" />
     </task>
     <task id="LOCAL-00001" summary="Added Jenkinsfile">
       <created>1537732262756</created>
@@ -8075,17 +8167,25 @@
       <option name="project" value="LOCAL" />
       <updated>1538303196919</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fixes to aws deployment. still build failed due to No Configuration Template named 'mvp/default' found.">
+      <created>1539720966213</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1539720966213</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86950000" />
+    <option name="totallyTimeSpent" value="218804000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
+    <frame x="432" y="0" width="855" height="727" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49418604" visible="true" weight="0.35789475" />
-      <window_info id="Structure" order="1" sideWeight="0.50581396" side_tool="true" weight="0.7034483" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4918033" visible="true" weight="0.0" />
+      <window_info id="Structure" order="1" sideWeight="0.5081967" side_tool="true" weight="0.4212272" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -8093,36 +8193,38 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" sideWeight="0.50359714" side_tool="true" weight="0.1562753" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40840337" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.56397307" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.2003367" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.01512605" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.1368421" side_tool="true" weight="0.49833888" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49578413" weight="0.6212121" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50421584" side_tool="true" weight="0.25925925" />
       <window_info anchor="bottom" id="Spring" order="10" weight="0.3277311" />
-      <window_info anchor="bottom" id="Grails Console" order="11" sideWeight="0.49915683" weight="0.21212122" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Grails Console" order="11" sideWeight="0.49915683" weight="0.24242425" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32996634" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.51902837" weight="0.41196012" />
-      <window_info active="true" anchor="bottom" id="Messages" order="15" sideWeight="0.86315787" visible="true" weight="0.49833888" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24861878" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.4772344" />
-      <window_info anchor="right" id="Gradle" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.51902837" weight="0.24086379" />
+      <window_info active="true" anchor="bottom" id="Messages" order="15" sideWeight="0.5935919" visible="true" weight="0.17508417" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.24861878" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.47559276" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info anchor="right" id="Bean Validation" order="10" weight="0.32890365" />
+      <window_info anchor="right" id="Bean Validation" order="10" weight="0.32865733" />
+      <window_info anchor="right" id="Gradle" order="11" weight="0.32914925" />
+      <window_info anchor="right" x="0" y="0" width="148" height="527" id="Documentation" order="12" side_tool="true" weight="0.32830188" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49418604" visible="true" weight="0.35789475" />
-      <window_info id="Structure" order="1" sideWeight="0.50581396" side_tool="true" weight="0.7034483" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4918033" visible="true" weight="0.035413153" />
+      <window_info id="Structure" order="1" sideWeight="0.5081967" side_tool="true" weight="0.4212272" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -8130,32 +8232,34 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" sideWeight="0.50359714" side_tool="true" weight="0.1562753" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.11447811" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.56397307" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.2003367" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.01512605" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50084317" side_tool="true" weight="0.07641196" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49578413" weight="0.057239056" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50421584" side_tool="true" weight="0.25925925" />
       <window_info anchor="bottom" id="Spring" order="10" weight="0.3277311" />
-      <window_info anchor="bottom" id="Grails Console" order="11" sideWeight="0.49915683" weight="0.21212122" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Grails Console" order="11" sideWeight="0.49915683" weight="0.26262626" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32996634" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="14" sideWeight="0.3765227" visible="true" weight="0.41196012" />
-      <window_info anchor="bottom" id="Messages" order="15" weight="0.060606062" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24861878" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.4772344" />
-      <window_info anchor="right" id="Gradle" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.51902837" weight="0.41196012" />
+      <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.5935919" weight="0.22390573" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.24861878" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.47559276" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Bean Validation" order="10" weight="0.32890365" />
+      <window_info anchor="right" id="Gradle" order="11" weight="0.32914925" />
+      <window_info anchor="right" x="0" y="0" width="148" height="527" id="Documentation" order="12" side_tool="true" weight="0.32830188" />
     </layout-to-restore>
   </component>
   <component name="TraitInjectorService">
@@ -8170,21 +8274,22 @@
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-domain-class/3.2.3/9f323869b9c6bae279adb5c510a7f30c9c563b3f/grails-plugin-domain-class-3.2.3.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/cache/3.0.3/e857268f939b4b907ce91ff4f5217cfb97abcaa7/cache-3.0.3.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-core/3.2.3/93982861841cd29364b525e86495d81cbb463051/grails-core-3.2.3.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-common/3.2.3/398885ee10b088ee8aadeebf511b79ae0a5814c1/grails-web-common-3.2.3.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-controllers/3.2.3/92fce1e64f32d802c2724cbc0315de1a986d09a4/grails-plugin-controllers-3.2.3.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-codecs/3.2.3/7371366a425a2c2f568760992f701da5aef4c7eb/grails-plugin-codecs-3.2.3.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-services/3.2.3/9ed076314e9045f6a43fdce5b3c12efe717f4416/grails-plugin-services-3.2.3.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-datastore-gorm-support/6.0.4.RELEASE/10241979231072b5f5ad09b66cf69febf0d6b4e0/grails-datastore-gorm-support-6.0.4.RELEASE.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-codecs/3.2.3/7371366a425a2c2f568760992f701da5aef4c7eb/grails-plugin-codecs-3.2.3.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/hibernate5/6.0.4/3a21d1db4c9c10b2f9096fd0ad08e0ea2c9aa9e6/hibernate5-6.0.4.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-databinding/3.2.3/565a137b99ba7559c5dc51fccf76c102caa2d87/grails-web-databinding-3.2.3.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web/3.2.3/59180023e1bd884f27f942411927a3166336fd88/grails-web-3.2.3.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-url-mappings/3.2.3/74dcbc363300b3229a1bca35823fd5a596f5108b/grails-web-url-mappings-3.2.3.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-common/3.2.3/398885ee10b088ee8aadeebf511b79ae0a5814c1/grails-web-common-3.2.3.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-async/3.2.3/3a681205b2719f74f1a89d7d3d07d868fc47d1e3/grails-plugin-async-3.2.3.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-rest/3.2.3/1dfdbbef5e9edbaed0c432700f48d3776703685/grails-plugin-rest-3.2.3.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/hibernate5/6.0.4/3a21d1db4c9c10b2f9096fd0ad08e0ea2c9aa9e6/hibernate5-6.0.4.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/spring-security-core/3.1.1/62998dc11053792cedfb979ffc94921d346eaeb6/spring-security-core-3.1.1.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-url-mappings/3.2.3/74dcbc363300b3229a1bca35823fd5a596f5108b/grails-web-url-mappings-3.2.3.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-url-mappings/3.2.3/74dcbc363300b3229a1bca35823fd5a596f5108b/grails-web-url-mappings-3.2.3.jar!/META-INF/services/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-validation/3.2.3/8d2732f977e5a561dbd4029609358d4d0ec66292/grails-validation-3.2.3.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-interceptors/3.2.3/bfacffb96777df3e5ad86a96b0aa682d2df2e384/grails-plugin-interceptors-3.2.3.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-testing/3.2.3/65603f722dc66d4b0cd87638955859655d8c1074/grails-plugin-testing-3.2.3.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-controllers/3.2.3/92fce1e64f32d802c2724cbc0315de1a986d09a4/grails-plugin-controllers-3.2.3.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-rest/3.2.3/1dfdbbef5e9edbaed0c432700f48d3776703685/grails-plugin-rest-3.2.3.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-gsp/3.2.3/2e0ca0da3495f0f10b78c6d22744d603e77de87e/grails-plugin-gsp-3.2.3.jar!/META-INF/grails.factories" />
                 </list>
               </option>
@@ -8199,6 +8304,7 @@
                             <option value="grails.artefact.AsyncController" />
                             <option value="grails.artefact.gsp.TagLibraryInvoker" />
                             <option value="grails.artefact.controller.RestResponder" />
+                            <option value="grails.plugin.springsecurity.ControllerMixin" />
                           </list>
                         </value>
                       </entry>
@@ -8255,21 +8361,22 @@
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-domain-class/3.2.3/9f323869b9c6bae279adb5c510a7f30c9c563b3f/grails-plugin-domain-class-3.2.3.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/cache/3.0.3/e857268f939b4b907ce91ff4f5217cfb97abcaa7/cache-3.0.3.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-core/3.2.3/93982861841cd29364b525e86495d81cbb463051/grails-core-3.2.3.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-common/3.2.3/398885ee10b088ee8aadeebf511b79ae0a5814c1/grails-web-common-3.2.3.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-controllers/3.2.3/92fce1e64f32d802c2724cbc0315de1a986d09a4/grails-plugin-controllers-3.2.3.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-services/3.2.3/9ed076314e9045f6a43fdce5b3c12efe717f4416/grails-plugin-services-3.2.3.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-datastore-gorm-support/6.0.4.RELEASE/10241979231072b5f5ad09b66cf69febf0d6b4e0/grails-datastore-gorm-support-6.0.4.RELEASE.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-codecs/3.2.3/7371366a425a2c2f568760992f701da5aef4c7eb/grails-plugin-codecs-3.2.3.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/hibernate5/6.0.4/3a21d1db4c9c10b2f9096fd0ad08e0ea2c9aa9e6/hibernate5-6.0.4.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-databinding/3.2.3/565a137b99ba7559c5dc51fccf76c102caa2d87/grails-web-databinding-3.2.3.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web/3.2.3/59180023e1bd884f27f942411927a3166336fd88/grails-web-3.2.3.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-url-mappings/3.2.3/74dcbc363300b3229a1bca35823fd5a596f5108b/grails-web-url-mappings-3.2.3.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-codecs/3.2.3/7371366a425a2c2f568760992f701da5aef4c7eb/grails-plugin-codecs-3.2.3.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-async/3.2.3/3a681205b2719f74f1a89d7d3d07d868fc47d1e3/grails-plugin-async-3.2.3.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-rest/3.2.3/1dfdbbef5e9edbaed0c432700f48d3776703685/grails-plugin-rest-3.2.3.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/hibernate5/6.0.4/3a21d1db4c9c10b2f9096fd0ad08e0ea2c9aa9e6/hibernate5-6.0.4.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/spring-security-core/3.1.1/62998dc11053792cedfb979ffc94921d346eaeb6/spring-security-core-3.1.1.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-url-mappings/3.2.3/74dcbc363300b3229a1bca35823fd5a596f5108b/grails-web-url-mappings-3.2.3.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-url-mappings/3.2.3/74dcbc363300b3229a1bca35823fd5a596f5108b/grails-web-url-mappings-3.2.3.jar!/META-INF/services/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-validation/3.2.3/8d2732f977e5a561dbd4029609358d4d0ec66292/grails-validation-3.2.3.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-interceptors/3.2.3/bfacffb96777df3e5ad86a96b0aa682d2df2e384/grails-plugin-interceptors-3.2.3.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-controllers/3.2.3/92fce1e64f32d802c2724cbc0315de1a986d09a4/grails-plugin-controllers-3.2.3.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-rest/3.2.3/1dfdbbef5e9edbaed0c432700f48d3776703685/grails-plugin-rest-3.2.3.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-gsp/3.2.3/2e0ca0da3495f0f10b78c6d22744d603e77de87e/grails-plugin-gsp-3.2.3.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-common/3.2.3/398885ee10b088ee8aadeebf511b79ae0a5814c1/grails-web-common-3.2.3.jar!/META-INF/grails.factories" />
                 </list>
               </option>
               <option name="traits">
@@ -8283,6 +8390,7 @@
                             <option value="grails.artefact.AsyncController" />
                             <option value="grails.artefact.gsp.TagLibraryInvoker" />
                             <option value="grails.artefact.controller.RestResponder" />
+                            <option value="grails.plugin.springsecurity.ControllerMixin" />
                           </list>
                         </value>
                       </entry>
@@ -8339,21 +8447,22 @@
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-domain-class/3.2.3/9f323869b9c6bae279adb5c510a7f30c9c563b3f/grails-plugin-domain-class-3.2.3.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/cache/3.0.3/e857268f939b4b907ce91ff4f5217cfb97abcaa7/cache-3.0.3.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-core/3.2.3/93982861841cd29364b525e86495d81cbb463051/grails-core-3.2.3.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-common/3.2.3/398885ee10b088ee8aadeebf511b79ae0a5814c1/grails-web-common-3.2.3.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-controllers/3.2.3/92fce1e64f32d802c2724cbc0315de1a986d09a4/grails-plugin-controllers-3.2.3.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-codecs/3.2.3/7371366a425a2c2f568760992f701da5aef4c7eb/grails-plugin-codecs-3.2.3.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-services/3.2.3/9ed076314e9045f6a43fdce5b3c12efe717f4416/grails-plugin-services-3.2.3.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-datastore-gorm-support/6.0.4.RELEASE/10241979231072b5f5ad09b66cf69febf0d6b4e0/grails-datastore-gorm-support-6.0.4.RELEASE.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-codecs/3.2.3/7371366a425a2c2f568760992f701da5aef4c7eb/grails-plugin-codecs-3.2.3.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/hibernate5/6.0.4/3a21d1db4c9c10b2f9096fd0ad08e0ea2c9aa9e6/hibernate5-6.0.4.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-databinding/3.2.3/565a137b99ba7559c5dc51fccf76c102caa2d87/grails-web-databinding-3.2.3.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web/3.2.3/59180023e1bd884f27f942411927a3166336fd88/grails-web-3.2.3.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-url-mappings/3.2.3/74dcbc363300b3229a1bca35823fd5a596f5108b/grails-web-url-mappings-3.2.3.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-common/3.2.3/398885ee10b088ee8aadeebf511b79ae0a5814c1/grails-web-common-3.2.3.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-async/3.2.3/3a681205b2719f74f1a89d7d3d07d868fc47d1e3/grails-plugin-async-3.2.3.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-rest/3.2.3/1dfdbbef5e9edbaed0c432700f48d3776703685/grails-plugin-rest-3.2.3.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/hibernate5/6.0.4/3a21d1db4c9c10b2f9096fd0ad08e0ea2c9aa9e6/hibernate5-6.0.4.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/spring-security-core/3.1.1/62998dc11053792cedfb979ffc94921d346eaeb6/spring-security-core-3.1.1.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-url-mappings/3.2.3/74dcbc363300b3229a1bca35823fd5a596f5108b/grails-web-url-mappings-3.2.3.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-url-mappings/3.2.3/74dcbc363300b3229a1bca35823fd5a596f5108b/grails-web-url-mappings-3.2.3.jar!/META-INF/services/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-validation/3.2.3/8d2732f977e5a561dbd4029609358d4d0ec66292/grails-validation-3.2.3.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-interceptors/3.2.3/bfacffb96777df3e5ad86a96b0aa682d2df2e384/grails-plugin-interceptors-3.2.3.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-testing/3.2.3/65603f722dc66d4b0cd87638955859655d8c1074/grails-plugin-testing-3.2.3.jar!/META-INF/grails.factories" />
-                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-controllers/3.2.3/92fce1e64f32d802c2724cbc0315de1a986d09a4/grails-plugin-controllers-3.2.3.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-rest/3.2.3/1dfdbbef5e9edbaed0c432700f48d3776703685/grails-plugin-rest-3.2.3.jar!/META-INF/grails.factories" />
                   <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-gsp/3.2.3/2e0ca0da3495f0f10b78c6d22744d603e77de87e/grails-plugin-gsp-3.2.3.jar!/META-INF/grails.factories" />
                 </list>
               </option>
@@ -8368,6 +8477,7 @@
                             <option value="grails.artefact.AsyncController" />
                             <option value="grails.artefact.gsp.TagLibraryInvoker" />
                             <option value="grails.artefact.controller.RestResponder" />
+                            <option value="grails.plugin.springsecurity.ControllerMixin" />
                           </list>
                         </value>
                       </entry>
@@ -10044,7 +10154,8 @@
     <MESSAGE value="rest of jenkinsfile changed  sh(linux) -&gt; bat(windows)" />
     <MESSAGE value="typo fix" />
     <MESSAGE value="fixes to aws deployment. still build failed due to No Configuration Template named 'mvp/default' found." />
-    <option name="LAST_COMMIT_MESSAGE" value="fixes to aws deployment. still build failed due to No Configuration Template named 'mvp/default' found." />
+    <MESSAGE value="several changes to project" />
+    <option name="LAST_COMMIT_MESSAGE" value="several changes to project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -10055,6 +10166,12 @@
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app-admin/grails-app/views/type/create.gsp</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -10063,217 +10180,340 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web-sandbox/settings.gradle" />
-    <entry file="file://$PROJECT_DIR$/gradlew">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-datastore-gorm/6.0.4.RELEASE/9bbaa4109f5ca8b5d154564f3a1c6dd1baa8170c/grails-datastore-gorm-6.0.4.RELEASE-sources.jar!/org/grails/datastore/gorm/GormValidateable.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="89" column="12" selection-start-line="89" selection-start-column="12" selection-end-line="89" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-admin/src/test/groovy/app/admin/jobsboard/TypeSpec.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-admin/build/reports/tests/test/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-datastore-gorm/6.0.4.RELEASE/9bbaa4109f5ca8b5d154564f3a1c6dd1baa8170c/grails-datastore-gorm-6.0.4.RELEASE-sources.jar!/org/grails/datastore/gorm/GormEntity.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        <state relative-caret-position="189">
+          <caret line="725" column="13" selection-start-line="725" selection-start-column="13" selection-end-line="725" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-3.0-bin/2z3tfybitalx2py5dr8rf2mti/gradle-3.0/lib/gradle-core-3.0.jar!/org/gradle/api/Project.class">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-testing/3.2.3/bfd445b7924b85bca0afc61fe3d1e8b2f27bec68/grails-plugin-testing-3.2.3-sources.jar!/grails/test/mixin/web/GroovyPageUnitTestMixin.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1513">
-          <caret line="70" column="11" selection-start-line="70" selection-start-column="11" selection-end-line="70" selection-end-column="11" />
+        <state relative-caret-position="133">
+          <caret line="164" column="4" lean-forward="true" selection-start-line="164" selection-start-column="4" selection-end-line="164" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-sandbox/grails-app/conf/spring/resources.groovy">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-sandbox/grails-app/i18n/messages.properties">
-      <provider editor-type-id="ResourceBundle" />
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-sandbox/grails-app/conf/application.yml">
+    <entry file="file://$PROJECT_DIR$/app-admin/src/test/groovy/app/admin/jobsboard/PublisherSpec.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="121" column="29" selection-start-line="121" selection-start-column="29" selection-end-line="121" selection-end-column="29" />
+        <state relative-caret-position="170">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Jenkinsfile">
+    <entry file="file://$PROJECT_DIR$/app-admin/src/test/groovy/app/admin/StatisticsTagLibSpec.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mod-sandbox/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
+        <state relative-caret-position="799">
           <caret line="47" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mod-sandbox/gradle.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app-web/node_modules/karma/node_modules/log4js/lib/categories.js" />
-    <entry file="file://$PROJECT_DIR$/app-web/node_modules/karma/node_modules/log4js/lib/layouts.js" />
-    <entry file="file://$PROJECT_DIR$/app-web/node_modules/karma/node_modules/log4js/lib/log4js.js" />
-    <entry file="file://$PROJECT_DIR$/web-sandbox/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradle.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-sandbox/gradle.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app-microservice/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app-admin/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app-web/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="112" column="5" selection-start-line="112" selection-start-column="5" selection-end-line="112" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/specification/target/site/serenity/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="27" selection-start-line="27" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/specification/src/test/java/app/admin/features/steps/AdminLandingStepDefinitions." />
-    <entry file="file://$PROJECT_DIR$/specification/src/test/java/app/admin/features/steps/AdminLandingStepDefinitions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#582#583#0" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#729#730#0" expanded="true" />
-            <element signature="e#754#755#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/specification/src/test/java/app/admin/features/steps/serenity/AdminSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/specification/src/test/java/app/pages/AdminLandingPage.java" />
-    <entry file="file://$PROJECT_DIR$/specification/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="59" column="24" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app-admin/grails-app/views/index.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="55" column="38" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
+        <state relative-caret-position="225">
+          <caret line="70" column="32" lean-forward="true" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/app-admin/src/test/groovy/app/admin/StatisticsServiceSpec.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="124">
+          <caret line="55" column="45" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/specification/gradle.properties">
+    <entry file="file://$PROJECT_DIR$/app-admin/grails-app/views/job/tags/_widget.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-admin/grails-app/views/job/tags/_displayWidget.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="44" selection-start-column="44" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-admin/grails-app/views/job/publisher/_displayWidget.gsp" />
+    <entry file="file://$PROJECT_DIR$/app-admin/grails-app/conf/logback.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-472" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-admin/src/main/templates/scaffolding/AsyncSpec.groovy">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/specification/src/test/resources/features/web/web_landing.feature">
+    <entry file="file://$PROJECT_DIR$/app-admin/grails-app/init/app/admin/Application.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+        <state relative-caret-position="204">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/specification/src/test/resources/features/microservice/microservice_manage_jobs.feature">
+    <entry file="file://$PROJECT_DIR$/app-admin/grails-app/conf/application.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        <state relative-caret-position="425">
+          <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/specification/src/test/resources/features/admin/admin_landing.feature">
+    <entry file="file://$PROJECT_DIR$/app-admin/grails-app/conf/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="129" selection-start-line="129" selection-end-line="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-admin/grails-app/views/type/create.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="63" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-admin/grails-app/taglib/app/admin/StatisticsTagLib.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-admin/grails-app/services/app/admin/StatisticsService.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-admin/grails-app/views/job/index.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-admin/grails-app/views/job/create.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-admin/grails-app/views/job/edit.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-admin/grails-app/controllers/app/admin/jobsboard/PublisherController.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="70" selection-start-line="8" selection-start-column="70" selection-end-line="8" selection-end-column="70" />
+          <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-end-line="8" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/specification/src/test/resources/features/admin/admin_jobs.feature">
+    <entry file="file://$PROJECT_DIR$/app-admin/src/main/templates/scaffolding/edit.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+        <state relative-caret-position="663">
+          <caret line="39" column="7" lean-forward="true" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/specification/src/test/resources/features/web/web_monetization.feature">
+    <entry file="file://$PROJECT_DIR$/app-admin/src/main/templates/scaffolding/show.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
+        <state relative-caret-position="357">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/specification/target/site/serenity/css/core.css">
+    <entry file="file://$PROJECT_DIR$/app-admin/src/main/templates/scaffolding/create.gsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-admin/src/main/templates/scaffolding/AsyncController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="1221" column="37" selection-start-line="1221" selection-start-column="37" selection-end-line="1221" selection-end-column="37" />
+        <state relative-caret-position="493">
+          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/specification/src/test/java/app/admin/features/AcceptanceTests.java">
+    <entry file="file://$PROJECT_DIR$/app-admin/grails-app/views/job/applyInstructions/_widget.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="133" selection-start-column="133" selection-end-column="133" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-admin/grails-app/views/job/description/_widget.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="64" selection-start-line="1" selection-start-column="64" selection-end-line="1" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-admin/grails-app/views/job/publisher/_widget.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-admin/grails-app/views/job/type/_displayWidget.gsp" />
+    <entry file="file://$PROJECT_DIR$/app-admin/grails-app/views/job/type/_widget.gsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-admin/grails-app/views/job/show.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-admin/grails-app/views/publisher/show.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-admin/grails-app/controllers/app/admin/security/UserController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="72" column="27" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-admin/grails-app/controllers/app/admin/jobsboard/TypeController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-admin/grails-app/init/app/admin/BootStrap.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="72" column="47" selection-start-line="72" selection-start-column="47" selection-end-line="72" selection-end-column="47" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#19#49#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/specification/target/site/serenity/capabilities.html">
+    <entry file="file://$PROJECT_DIR$/app-admin/grails-app/domain/app/admin/jobsboard/Publisher.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="474" column="60" selection-start-line="474" selection-start-column="60" selection-end-line="474" selection-end-column="60" />
+        <state relative-caret-position="493">
+          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-admin/grails-app/domain/app/admin/jobsboard/Tag.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-admin/grails-app/domain/app/admin/jobsboard/Type.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-admin/grails-app/domain/app/admin/security/Role.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-admin/grails-app/domain/app/admin/security/User.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-admin/grails-app/domain/app/admin/jobsboard/Job.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-admin/grails-app/controllers/app/admin/jobsboard/JobController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+          <folding>
+            <element signature="e#29#83#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-admin/grails-app/controllers/app/admin/jobsboard/TagController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-admin/grails-app/domain/app/admin/security/UserRole.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="77" column="22" selection-start-line="77" selection-start-column="22" selection-end-line="77" selection-end-column="22" />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mod-domain/grails-app/domain/app/admin/security/Role.groovy">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mod-domain/grails-app/services/app/admin/StatisticsService.groovy">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-admin/grails-app/views/login/auth.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="98" column="55" selection-start-line="98" selection-start-column="55" selection-end-line="98" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-admin/grails-app/views/login/denied.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -10283,7 +10523,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>Gradle : web.sandbox : web-sandbox-0.1.war</last-edited>
+          <last-edited>Gradle : app.admin : app-admin-0.1.war</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -10332,11 +10572,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>mod-sandbox</last-edited>
+          <last-edited>mod-domain_main|mod-domain</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
